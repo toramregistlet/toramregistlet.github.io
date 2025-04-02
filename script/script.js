@@ -30,7 +30,7 @@ function downloadFile(completedMd) {
     MD file have to be converted to JSON before updating the list
 */
 function convertMdtoJson(mdText) {
-    const pattern = /## (.*?)\r?\n\(Lv:\s*([\d,\s]+)\)\r?\n>\s*(.*?)\r?\n\s*Max Level:\s*(\d+)\s*\r?\n\s*Rarity:\s*(\w+)/g;
+    const pattern = /## (.*?)\r?\n\(Lv:\s*([\d,\s]+)\)\r?\n>\s*(.*?)\r?\n\s*Max Level:\s*(\d+)\s*\r?\n\s*Rarity:\s*([\w\s]+)/g;
     const matches = [...mdText.matchAll(pattern)];
     
     return matches.map(match => ({
@@ -214,9 +214,9 @@ async function processFiles() {
 
 - - -
 
-    Rarity:\s*(\w+)
+    Rarity:\s*([\w\s]+)
         Rarity:\s*      : Look for Rarity followed by white space (space, tab) 0 or more times
-        (\w+)           : Look for sequence word of characters
+        ([\w\s]+)       : Look for sequence word of characters
                           (not using (.*?) like previous case just to avoid bug)
 
             Rarity: Common
