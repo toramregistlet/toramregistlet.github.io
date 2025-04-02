@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registlet - Toram Online</title>
+  <script src="./script/marked.min.js"></script>
+  <script src="./script/purify.min.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="input-container">
+      <label for="csvFile">Registlet CSV: </label>
+      <input type="file" id="csvFile" accept=".csv">
+    </div>
+    
+    <div class="input-container">
+      <label for="mdFile">Registlet MD: </label>
+      <input type="file" id="mdFile" accept=".md">
+    </div>
+
+    <div class="button-container">
+      <button class="button" onclick="processFiles()">Submit</button>
+      <a class="button" href="./index.html">Registlet List</a>
+      <a class="button" href="./preview.html" target="_blank">Preview Page</a>
+    </div>
+  </div>
+
+  <div class="preview" id="note"></div>
+
+  <script src="./script/script.js"></script>
+  <script src="./script/preview_script.js"></script>
+</body>
+</html>
