@@ -3,20 +3,22 @@
 * {
     box-sizing: border-box;
     line-height: 1.5;
+    color: #e0e0e0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #e0e0e0;
     max-width: 100%;
     margin: 1rem;
-    background: #121212;
+    background-color: #121212;
+    letter-spacing: 1.2px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .input-container {
@@ -50,21 +52,57 @@ label {
     border: 1px solid #444;
 }
 
+.container-preview {
+    display: flex;
+    gap: 1rem;
+}
+
 .preview {
-    padding: 0.5rem;
-    margin-top: 0.5rem;
     background: #0D1117;
     border: 1px solid #333;
+    padding: 0 0.8rem;
+}
+
+.left, .right {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90vh;
+}
+
+.left {
+    resize: horizontal;
+}
+
+.right {
+    width: 100%;
+}
+
+.scrollTopBtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    position: fixed;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #333;
+    text-decoration: none;
 }
 
 
 /* markdown styles */
 
 h1, h2 {
-	margin: 0;
-	margin-top: 1.5rem;
-	padding-bottom: 0.5rem;
-	border-bottom: 1px solid #2F353D;
+    margin: 0;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #2F353D;
 }
 
 a {
@@ -72,14 +110,14 @@ a {
 }
 
 blockquote {
-	margin: 0;
-	padding-left: 1rem;
-	border-left: 4px solid #3D444D;
+    margin: 0;
+    padding-left: 1rem;
+    border-left: 4px solid #3D444D;
 }
 
 code {
-	padding: 0.1rem 0.2rem;
-	background-color: #1E242A;
+    padding: 0.1rem 0.2rem;
+    background-color: #1E242A;
 }
 
 table {
@@ -87,18 +125,42 @@ table {
 }
 
 tr:nth-child(even){
-	background-color: #151B23;
+    background-color: #151B23;
 }
 
 th {
-	background-color: #3D444D;
+    background-color: #3D444D;
 }
 
 th, td {
-	padding: 0.2rem 0.4rem;
-	border: 1px solid #2F353D;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #2F353D;
 }
 
 li {
     margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-preview {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .left {
+        height: 100%;
+        min-height: 16vh;
+        resize: vertical;
+    }
+
+    .right {
+        height: 100%;
+    }
+
+    .scrollTopBtn {
+        display: flex;
+    }
 }

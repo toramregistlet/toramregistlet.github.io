@@ -1,31 +1,12 @@
-function previewMD() {
-    const fileInput = document.getElementById('mdFile');
-    const preview = document.getElementById('preview2');
-    const file = fileInput.files[0];
+const fileInput = document.getElementById('mdFile');
+const inputText = document.getElementById('input-text');
+const note = document.getElementById('note');
+const preview1 = document.getElementById('preview1');
+const preview2 = document.getElementById('preview2');
 
-    if (!file) {
-        alert('Please select a MD file first!');
-        return;
-    }
+const registletUrl = "https://toramregistlet.github.io/Registlet/Registlet.md";
 
-    if (!file.name.toLowerCase().endsWith('.md')) {
-        alert('Please select a valid MD file!');
-        return;
-    }
-
-    const reader = new FileReader();
-    reader.onload = (e) => {
-        const html = marked.parse(e.target.result);
-        const purify = DOMPurify.sanitize(html);
-        preview.innerHTML = purify;
-    };
-    reader.readAsText(file);
-}
-
-function previewNote() {
-    const note = document.getElementById('note');
-
-    const noteText = `# How to Use:
+const noteText = `# How to Use:
 1. Update file <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a>.  
 _(Manually adding & crosschecking. Use excel, Google Sheets or even notepad lol)_
 2. Upload <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>
@@ -48,34 +29,53 @@ It will automatically update the list without ruining the list order that you ha
 _(if you upload that fixed md file)_
 - If Asobimo changed existing registlet's name, make sure to change it both on <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a> before uploading it.`;
 
-    note.innerHTML = marked.parse(noteText);
+
+function displayMD(str, htmlElement) {
+    const html = marked.parse(str);
+    const purifyHtml = DOMPurify.sanitize(html);
+    htmlElement.innerHTML = purifyHtml;
 }
 
 async function fetchRegistlet() {
     try {
-        const res = await fetch("https://toramregistlet.github.io/Registlet/Registlet.md");
+        const res = await fetch(registletUrl);
         const data = await res.text();
+
         return data;
     } catch (err) {
         console.log("Error fetching data:", err);
     }
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-    const note = document.getElementById('note');
-    const preview = document.getElementById('preview');
+function readInputFile() {
+    const file = fileInput.files[0];
 
+    if (!file.name.toLowerCase().endsWith('.md')) {
+        alert('Please select a valid MD file!');
+        return;
+    }
+
+    const reader = new FileReader();
+
+    reader.onload = (e) => {
+        const purifyText = DOMPurify.sanitize(e.target.result);
+        inputText.value = purifyText;
+        inputText.dispatchEvent(new Event("input", { bubbles: true }));
+    };
+
+    reader.readAsText(file);
+}
+
+
+document.addEventListener("DOMContentLoaded", async () => {
     // for update.html
     if (note) {
-        previewNote();
+        displayMD(noteText, note);
     }
 
     // for index.html
-    if (preview) {
+    if (preview1) {
         const registlet = await fetchRegistlet();
-    
-        const html = marked.parse(registlet);
-        const purify = DOMPurify.sanitize(html);
-        preview.innerHTML = purify;
+        displayMD(registlet, preview1);
     }
 });

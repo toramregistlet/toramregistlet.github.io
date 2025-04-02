@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <input type="file" id="mdFile" accept=".md" onchange="readInputFile()">
 
-    <input type="file" id="mdFile" accept=".md" onchange="previewMD()">
-    <div class="preview" id="preview2"></div>
+    <div class="container-preview" id="top">
+        <textarea class="preview left" id="input-text" rows="8" oninput="displayMD(inputText.value, preview2)"></textarea>
+
+        <div class="preview right" id="preview2"></div>
+    </div>
+
+    <a class="scrollTopBtn" href="#top">&#8679;</a>
 
     <script src="./script/preview_script.js"></script>
 </body>
