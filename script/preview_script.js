@@ -32,8 +32,7 @@ _(if you upload that fixed md file)_
 
 function displayMD(str, htmlElement) {
     const html = marked.parse(str);
-    const purifyHtml = DOMPurify.sanitize(html);
-    htmlElement.innerHTML = purifyHtml;
+    htmlElement.innerHTML = html;
 }
 
 async function fetchRegistlet() {
@@ -58,8 +57,7 @@ function readInputFile() {
     const reader = new FileReader();
 
     reader.onload = (e) => {
-        const purifyText = DOMPurify.sanitize(e.target.result);
-        inputText.value = purifyText;
+        inputText.value = e.target.result;
         inputText.dispatchEvent(new Event("input", { bubbles: true }));
     };
 
