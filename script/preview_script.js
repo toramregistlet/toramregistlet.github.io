@@ -38,11 +38,14 @@ _(Manually adding & crosschecking. Use excel, Google Sheets or even notepad lol)
 - Manually fix the list order  
 _(copy paste to rearrange the list in <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>)_  
 
-## How to Fix the List Order:
-**Manually fix the list order.**  
+## How to Update the List or Fix the List Order:
+**Manually fix the list order**   
+- copy paste to rearrange the list in <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>
+
+**Update Registlet List**
 - When Asobimo updates new registlets, do the steps from <a href="#note">How to Use</a>.  
 It will automatically update the list without ruining the list order that you have fixed  
-_(if you input that fixed md file)_
+_(if you upload that fixed md file)_
 - If Asobimo changed existing registlet's name, make sure to change it both on <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a> before uploading it.`;
 
     note.innerHTML = marked.parse(noteText);

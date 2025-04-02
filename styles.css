@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 body {
@@ -96,4 +97,8 @@ th {
 th, td {
 	padding: 0.2rem 0.4rem;
 	border: 1px solid #2F353D;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
