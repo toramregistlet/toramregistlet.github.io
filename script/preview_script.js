@@ -50,7 +50,7 @@ _(if you input that fixed md file)_
 
 async function fetchRegistlet() {
     try {
-        const res = await fetch("./Registlet/registlet.md");
+        const res = await fetch("https://toramregistlet.github.io/Registlet/Registlet.md");
         const data = await res.text();
         return data;
     } catch (err) {
