@@ -32,5 +32,4 @@ Everyone can use it right away, no need installation
 
 
 ***Notes:***  
-I haven't unlocked a lot of registlets, so I can't write the details.  
-Also, I know the app looks bad lol
+I know the app looks bad lol

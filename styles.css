@@ -1,5 +1,11 @@
 /* web page styles */
 
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 * {
     box-sizing: border-box;
     line-height: 1.5;
