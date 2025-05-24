@@ -32,4 +32,5 @@ Everyone can use it right away, no need installation
 
 
 ***Notes:***  
-I know the app looks bad lol
+- I know the app looks bad lol
+- Here if you need [registlets.json](./Registlet/registlets.json)

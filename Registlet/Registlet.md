@@ -18,7 +18,7 @@ Note: Please DM Aldenard#9771 / cal.s#2542 / Peanutou#9528 / Xen#9031 on Discord
 
     If you want to make registlet's detail in more than 1 line, use > for the new line
     and 2 spaces (  ) at the end previous line.
-    See "Heal Bank" and "Chancy Trap" as an example.
+    See/search "Heal Bank" and "Chancy Trap" as an example.
 -->
 
 ## Physical Attack Boost
@@ -744,7 +744,7 @@ Rarity:
 
 ## Assassin Stab Enhancer
 (Lv: 210, 230)
-> Raises the base multiplier of `Assassin Stab` by 15 per level. Furthermore, if the `Assassin Stab` performed is a `Back Stab`, the accuracy of the attack increases by 10% per level.
+> Raises the base multiplier of `Assassin Stab` by 1% per level. Furthermore, if the `Assassin Stab` performed is a `Back Stab`, the accuracy of the attack increases by 10% per level.
 
 Max Level: 10  
 Rarity: 

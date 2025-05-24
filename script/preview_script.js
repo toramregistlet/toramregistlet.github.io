@@ -8,7 +8,7 @@ const registletUrl = "https://toramregistlet.github.io/Registlet/Registlet.md";
 
 const noteText = `# How to Use:
 1. Update file <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a>.  
-_(Manually adding & crosschecking. Use excel, Google Sheets or even notepad lol)_
+_(Manually adding & crosschecking. Use excel, Google Sheets or even notepad)_
 2. Upload <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>
 3. You get the result
    - Updated with new registlets you added to <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a>
@@ -27,7 +27,9 @@ _(copy paste to rearrange the list in <a href="./Registlet/Registlet.md" target=
 - When Asobimo updates new registlets, do the steps from <a href="#note">How to Use</a>.  
 It will automatically update the list without ruining the list order that you have fixed  
 _(if you upload that fixed md file)_
-- If Asobimo changed existing registlet's name, make sure to change it both on <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a> before uploading it.`;
+- If Asobimo changed existing registlet's name, make sure to change it both on <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a> and <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a> before uploading it.
+* * *
+# Here if you need <a href="./Registlet/registlets.json" target="_blank">registlets.json</a>`;
 
 
 function displayMD(str, htmlElement) {
