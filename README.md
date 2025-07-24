@@ -23,7 +23,7 @@
     <small>_(copy paste to rearrange the list in <code>Registlet.md</code>)_</small>
 
 ## How to Update the List:
-- When Asobimo updates new registlets, do the steps from <a href="#note">How to Use</a>.  
+- When Asobimo updates new registlets, do the steps from <a href="https://toramregistlet.github.io/update.html#note">How to Use</a>.  
 It will automatically update the list without ruining the list order that you have fixed _(if you upload that fixed <code>.md</code> file)_
 - If Asobimo changed existing registlet's name, make sure to change it both on <code>Registlet.csv</code> and <code>Registlet.md</code> before uploading them.
 * * *
