@@ -10,14 +10,27 @@
 <body>
     <input type="file" id="mdFile" accept=".md" onchange="readInputFile()">
 
+    <button class="button" style="margin-bottom: 1rem;" onclick="downloadFile(inputText.value)">Save</button>
+
     <div class="container-preview" id="top">
-        <textarea class="preview left" id="input-text" rows="8" oninput="displayMD(inputText.value, preview2)"></textarea>
+        <textarea class="preview left" id="input-text" rows="8" oninput="displayMD(inputText.value, preview2)"
+># Type Here
+
+To see something change on the other area.
+
+You can also upload your `.md` file and edit it here.
+
+---
+
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">List of Markdown Formatting Syntax</a>
+</textarea>
 
         <div class="preview right" id="preview2"></div>
     </div>
 
     <a class="scrollTopBtn" href="#top">&#8679;</a>
 
+    <script src="./script/script.js"></script>
     <script src="./script/preview_script.js"></script>
 </body>
 </html>
