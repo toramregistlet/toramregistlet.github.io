@@ -1,4 +1,6 @@
-FNote: The level inside the bracket means the possible drop from corresponding Registlet dungeon level.
+<hr />
+
+Note: The level inside the bracket means the possible drop from corresponding Registlet dungeon level.
 
 Note: Rarity may be inaccurate. It is divided into:
 - Common: 60% Chance
@@ -8,7 +10,7 @@ Note: Rarity may be inaccurate. It is divided into:
 - Epic: 0.65% Chance
 - Legendary: 0.1% Chance
 
-Note: Please DM Aldenard#9771 / cal.s#2542 / Peanutou#9528 / Xen#9031 on Discord for inaccurate detail or missing information. Please only DM one of us. Thank you!
+> <i>I’m just combining data from <a href="https://docs.google.com/document/d/1-_SW5viLkHp7H8CPbTCDvm8DU8k4w_xifvHbV0Og15M/edit?usp=sharing" target="_blank">this Google Docs</a> and <a href="https://discord.gg/KvYR5y2nGc" target="_blank">Toram Xensei Discord server</a> here so I can use the browser’s search feature *(Ctrl + F)*.</i>
 
 <!--
     Add 2 spaces (  ) at the end of line to break the line (new line).
@@ -20,6 +22,8 @@ Note: Please DM Aldenard#9771 / cal.s#2542 / Peanutou#9528 / Xen#9031 on Discord
     and 2 spaces (  ) at the end previous line.
     See/search "Heal Bank" and "Chancy Trap" as an example.
 -->
+
+<hr />
 
 ## Physical Attack Boost
 (Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
