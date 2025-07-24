@@ -1,36 +1,30 @@
+> **TL;DR:**  
+> This app only help to automate update list of Stoodie level on existing registlets and add new registlets to the list. Not including registlet descriptions.
+
 # How to Use:
-1. Update file [Registlet.csv](./Registlet/Registlet.csv).  
-_(Manually adding & crosschecking. Use excel, Google Sheets or even notepad lol)_
-2. Upload [Registlet.csv](./Registlet/Registlet.csv) and [Registlet.md](./Registlet/Registlet.md) to [index.html](./index.html)  
-3. You get the result
-   - Updated with new registlets you added to [Registlet.csv](./Registlet/Registlet.csv)
+1. Download these files (if you don't have them)
+    - <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a>
+    - <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>  
+        <small>_To download <code>Registlet.md</code> after clicking link above:_  
+            - _PC: ctrl+s to download. Make sure it's <code>.md</code>, not <code>.txt</code>._  
+            - _Mobile: find download page button on your browser._</small>
+2. Update file <code>Registlet.csv</code>.  
+    <small>_(Manually adding & crosschecking. Use excel, Google Sheets or even notepad)_</small>
+3. Upload <code>Registlet.csv</code> and <code>Registlet.md</code> then click submit.
+4. You get the result
+   - Updated with new registlets you added to <code>Registlet.csv</code>
    - List Stoodie lv where you can get that registlet automatically updated
 
 **Not fully automated:**
-- Refer to the first step
+- Refer to the second step
+- In the fourth step, you’ll need to manually add the registlet description.  
+    <small>_(Just one time thing, and only for new registlets or ones that got changes if Asobimo updates them.)_</small>
 - Manually fix the list order  
-_(copy paste to rearrange the list in [Registlet.md](./Registlet/Registlet.md))_  
+    <small>_(copy paste to rearrange the list in <code>Registlet.md</code>)_</small>
 
-## How to Update the List or Fix the List Order:
-**Manually fix the list order**  
-- copy paste to rearrange the list in [Registlet.md](./Registlet/Registlet.md)
-
-**Update Registlet List**
-- When Asobimo updates new registlets, do the steps from [How to Use](#how-to-use).  
-It will automatically update the list without ruining the list order that you have fixed  
-_(if you upload that fixed md file)_
-- If Asobimo changed existing registlet's name, make sure to change it both on [Registlet.csv](./Registlet/Registlet.csv) and [Registlet.md](./Registlet/Registlet.md) before uploading it.
-
-
-# Why Javascript?
-Everyone can use it right away, no need installation
-
-# Why Markdown File?
-1. Javascript can read it as a plain text
-2. Easier to update _(make use of regex)_
-3. Easily formated to looks good with simple symbols
-
-
-***Notes:***  
-- I know the app looks bad lol
-- Here if you need [registlets.json](./Registlet/registlets.json)
+## How to Update the List:
+- When Asobimo updates new registlets, do the steps from <a href="#note">How to Use</a>.  
+It will automatically update the list without ruining the list order that you have fixed _(if you upload that fixed <code>.md</code> file)_
+- If Asobimo changed existing registlet's name, make sure to change it both on <code>Registlet.csv</code> and <code>Registlet.md</code> before uploading them.
+* * *
+# 🟡 Here if you need <a href="./Registlet/registlets.json" target="_blank">registlets.json</a>
