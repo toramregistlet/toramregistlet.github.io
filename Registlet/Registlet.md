@@ -580,7 +580,7 @@ Rarity: Uncommon
 
 ## Extra Recovery
 (Lv: 170, 190, 210, 220)
-> adds a HP recovery effect to the skill `Recovery`. The amount of HP restored is 10% _(+10% per level)_ of the HP recovered by the `Mini Heal` learned.
+> adds a HP recovery effect to the skill `Recovery`. The amount of HP restored is *(10×level)%* of the heal value of the caster's `Mini Heal`. The HP recovery effect is applied to both the target and the caster.
 
 Max Level: 5  
 Rarity: Super Rare
@@ -615,21 +615,27 @@ Rarity: Epic
 
 ## Power Resonance
 (Lv: 170, 230)
-> `Resonance` will only enhance stats that affect firepower, but the enhancement is reduced by 90% _(-8% per level)._
+> The Skill `Resonance` will always choose the buff that boosts ATK/MATK, but the ATK/MATK boost is reduced by *(95-5×level)%*.
+> 
+> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*
 
 Max Level: 9  
 Rarity: Rare
 
 ## Speed Resonance
 (Lv: 190, 250)
-> `Resonance` will only enhance stats that affect acceleration, but the enhancement is reduced by 90% _(-8% per level)._
+> The Skill `Resonance` will always choose the buff that boosts ASPD/CSPD, but the ASPD/CSPD boost is reduced by *(95-5×level)%*.
+> 
+> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*
 
 Max Level: 9  
 Rarity: Rare
 
 ## Focus Resonance
 (Lv: 210)
-> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by (95-5×level)%. _Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect_
+> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.
+> 
+> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*
 
 Max Level: 9  
 Rarity: 
