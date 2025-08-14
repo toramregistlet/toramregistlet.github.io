@@ -104,46 +104,54 @@ label {
 
 /* markdown styles */
 
-h1, h2 {
+.preview h1, .preview h2 {
     margin: 0;
     margin-top: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #2F353D;
 }
 
-a {
+.preview a {
     color: #e0e0e0 !important;
 }
 
-blockquote {
+.preview .heading-anchor {
+    text-decoration: none;
+}
+
+.preview .heading-anchor:hover {
+    text-decoration: underline;
+}
+
+.preview blockquote {
     margin: 0;
     padding-left: 1rem;
     border-left: 4px solid #3D444D;
 }
 
-code {
+.preview code {
     padding: 0.1rem 0.2rem;
     background-color: #1E242A;
 }
 
-table {
+.preview table {
   border-collapse: collapse;
 }
 
-tr:nth-child(even){
+.preview tr:nth-child(even){
     background-color: #151B23;
 }
 
-th {
+.preview th {
     background-color: #3D444D;
 }
 
-th, td {
+.preview th, .preview td {
     padding: 0.2rem 0.4rem;
     border: 1px solid #2F353D;
 }
 
-li {
+.preview li {
     margin-bottom: 0.5rem;
 }
 
