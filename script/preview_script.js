@@ -38,6 +38,24 @@ It will automatically update the list without ruining the list order that you ha
 * * *
 # 🟡 Here if you need <a href="./Registlet/registlets.json" target="_blank">registlets.json</a>`;
 
+function generateSlug(text) {
+    return text
+        .toLowerCase()
+        .trim()
+        .replace(/[^\w\s-]/g, '') // hapus karakter khusus
+        .replace(/[\s_-]+/g, '-') // replace spasi/underscore dengan dash
+        .replace(/^-+|-+$/g, ''); // hapus dash di awal/akhir
+}
+
+function addAnchorLinks() {
+    const headings = preview1.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    headings.forEach(heading => {
+        const originalContent = heading.textContent;
+        const id = generateSlug(originalContent);
+        
+        heading.innerHTML = `<a href="#${id}" id="${id}" class="heading-anchor">${originalContent}</a>`;
+    });
+}
 
 function displayMD(str, htmlElement) {
     const html = marked.parse(str);
@@ -84,5 +102,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (preview1) {
         const registlet = await fetchRegistlet();
         displayMD(registlet, preview1);
+        addAnchorLinks();
     }
 });
