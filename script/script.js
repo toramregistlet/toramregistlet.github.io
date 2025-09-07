@@ -56,7 +56,9 @@ function convertMdtoJson(mdText) {
 
         return {
             name,
-            lv: new Set(lvMatch ? lvMatch[1].split(/\s*,\s*/).map(Number) : []),
+            lv: lvMatch 
+                ? [...new Set(lvMatch[1].split(/\s*,\s*/).map(Number))] 
+                : [],
             detail: lines.filter(line => line.startsWith('>')).join('\n'),
             max_lv: maxLvMatch ? parseInt(maxLvMatch[1], 10) : 0,
             rarity: rarityMatch ? rarityMatch[1].trim() : ''
@@ -77,11 +79,13 @@ function processCSVRow(row, registletJson) {
     const existing = registletJson.find(r => r.name === name);
 
     if (existing) {
-        existing.lv.add(level);
+        if (!existing.lv.includes(level)) {
+            existing.lv.push(level);
+        }
     } else {
         registletJson.push({
             name,
-            lv: new Set([level]),
+            lv: [level],
             detail: "> ",
             max_lv: 0,
             rarity: ""
@@ -94,9 +98,9 @@ function processCSVRow(row, registletJson) {
 */
 function convertJsonToMD(registletJson) {
     const registletMd = registletJson.map(({ name, lv, detail, max_lv, rarity }) => {
-        const stoodieLv = [...lv].sort((a, b) => a - b).join(", ");
+        const stoodieLv = lv.slice().sort((a, b) => a - b).join(", ");
 
-        return `## ${name}\n(Lv: ${stoodieLv})\n${detail}\n\nMax Level: ${max_lv}  \nRarity: ${rarity}`;
+        return `## ${name}\n(Lv: ${stoodieLv})\n${detail}\n\nMax Level: ${max_lv}<br/>\nRarity: ${rarity}`;
     }).join('\n\n');
 
     downloadFile(registletMd.trim());
@@ -138,7 +142,8 @@ async function processFiles() {
 }
 
 /*
-Summary when "submit" button is clicked:
+Summary of update.html page
+when we upload our .csv and .md then click "submit" button:
 
 All inside processFiles() function:
     1. Get uploaded files
@@ -150,4 +155,23 @@ All inside processFiles() function:
     6. Update registlet JSON using processCSVRow()
     7. Convert JSON back to MD using convertJsonToMD()
     8. Trigger file download via downloadFile() inside convertJsonToMD()
+*/
+
+
+/*
+If we want to get the .json file, change these temporarily:
+    - Line 29
+        a.download = "Updated Registlet List.md";
+        to
+        a.download = "Updated Registlet List.json";
+
+    - Line 106
+        downloadFile(registletMd.trim());
+        to
+        downloadFile(JSON.stringify(registletJson, null, 2));
+
+Then we just go to update.html on the browser and upload our .csv and .md
+and click "submit".
+
+After that we can undo those changes to get back the original function.
 */
