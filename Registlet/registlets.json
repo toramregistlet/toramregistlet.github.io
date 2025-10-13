@@ -1,5 +1,5 @@
 {
-  "counts": 147,
+  "counts": 157,
   "registlets": [
     {
       "id": 1,
@@ -42,7 +42,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> MATK +1 per level.\r",
       "max_lv": 30,
@@ -65,7 +66,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> MaxHP +10 per level.\r",
       "max_lv": 100,
@@ -88,7 +90,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> MaxMP +1 per level.\r",
       "max_lv": 100,
@@ -111,7 +114,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> DEF +1 per level.\r",
       "max_lv": 50,
@@ -134,7 +138,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> MDEF +1 per level.\r",
       "max_lv": 50,
@@ -157,7 +162,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> Accuracy +1 per level.\r",
       "max_lv": 10,
@@ -180,7 +186,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> Dodge +1 per level.\r",
       "max_lv": 10,
@@ -203,7 +210,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> ASPD +1 per level.\r",
       "max_lv": 100,
@@ -226,7 +234,8 @@
         210,
         220,
         230,
-        250
+        250,
+        270
       ],
       "detail": "> CSPD<br/>+1 per level.\r",
       "max_lv": 100,
@@ -477,7 +486,8 @@
       "name": "Poison Heal",
       "lv": [
         30,
-        50
+        50,
+        270
       ],
       "detail": "> 1% per level chance having [Poison] status removed when taking damage inflicted by [Poison].\r",
       "max_lv": 30,
@@ -501,7 +511,8 @@
       "lv": [
         30,
         50,
-        150
+        150,
+        270
       ],
       "detail": "> Instantly restores 11% _(+1% per level)_ of your HP when there is only 25% HP or less due to monster’s attacks. Cooldown: 60 seconds\r",
       "max_lv": 10,
@@ -512,7 +523,8 @@
       "name": "Emergency MP Heal",
       "lv": [
         50,
-        150
+        150,
+        270
       ],
       "detail": "> Immediately restores 10 MP per level if there is not enough MP. Cooldown: 60 second.\r",
       "max_lv": 10,
@@ -536,7 +548,8 @@
       "lv": [
         50,
         170,
-        220
+        220,
+        270
       ],
       "detail": "> If you get knocked out last in the party, you will squeeze through every last bit of your strength to quickly revive for 6 _(+1 per level)_ seconds before becoming unable to battle again. _*First Aid, Struggle, Revive Droplets Unavailable._\r",
       "max_lv": 5,
@@ -761,7 +774,8 @@
       "lv": [
         70,
         190,
-        220
+        220,
+        270
       ],
       "detail": "> Each party member excluding you will raise ATK and MATK by 1%, but 100% of HP will be lost whenever a member gets knocked out. _*This HP loss could knock player out. No increase in ATK or MATK boost but -1% HP loss per level when a member gets knocked out._\r",
       "max_lv": 2,
@@ -821,7 +835,8 @@
       "lv": [
         90,
         170,
-        220
+        220,
+        270
       ],
       "detail": "> Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost. _*This HP loss won’t knock player out. Healing range: 4m, range increases by 1m per level._\r",
       "max_lv": 5,
@@ -843,7 +858,8 @@
       "name": "Impetus",
       "lv": [
         110,
-        130
+        130,
+        270
       ],
       "detail": "> Reduces movement speed decline due to [Slow] by 5% per level.\r",
       "max_lv": 10,
@@ -1056,7 +1072,8 @@
       "id": 73,
       "name": "Bloody Warrior",
       "lv": [
-        150
+        150,
+        270
       ],
       "detail": "> Raises normal attack power and AMPR by 5% per level while afflicted with [Bleed].\r",
       "max_lv": 20,
@@ -1125,7 +1142,8 @@
       "name": "Frugal Shield Bash",
       "lv": [
         170,
-        230
+        230,
+        270
       ],
       "detail": "> Restores 10 MP _(+10 MP per level)_ when `Shield Bash` inflicts [Stun].\r",
       "max_lv": 10,
@@ -1222,7 +1240,8 @@
       "id": 87,
       "name": "Focus Resonance",
       "lv": [
-        210
+        210,
+        270
       ],
       "detail": "> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*\r",
       "max_lv": 9,
@@ -1409,7 +1428,8 @@
       "name": "Mana Crystal Catalyst",
       "lv": [
         210,
-        220
+        220,
+        270
       ],
       "detail": "> Reduces the casting time of `Mana Crystal` by 10% per level, but the amount of MP recovered gets reduced by 100.\r",
       "max_lv": 5,
@@ -1453,7 +1473,8 @@
       "id": 107,
       "name": "Silent P. Defense",
       "lv": [
-        210
+        210,
+        270
       ],
       "detail": "> Reduces the aggro generated when `P. Defense` is successful by 10% per level.\r",
       "max_lv": 10,
@@ -1529,7 +1550,8 @@
       "id": 114,
       "name": "Perfect Triple Thrust",
       "lv": [
-        220
+        220,
+        270
       ],
       "detail": "> Restores 10×level MP if `Triple Thrust` is successfully activated without taking any damage when used alone.\r",
       "max_lv": 10,
@@ -1549,7 +1571,8 @@
       "id": 116,
       "name": "Mega Demon Wind Shuriken",
       "lv": [
-        220
+        220,
+        270
       ],
       "detail": "> MP Cost of `Demon Wind Shuriken` increases by 200-100×level, but, in exchange, the number of times the shuriken can hit without reduced damage is increased by 1.\r",
       "max_lv": 2,
@@ -1572,7 +1595,7 @@
       "lv": [
         220
       ],
-      "detail": "> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.\r",
+      "detail": "> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.<br/>\r\n> Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1580,7 +1603,8 @@
       "id": 119,
       "name": "Frugal Breathwork",
       "lv": [
-        220
+        220,
+        270
       ],
       "detail": "> Reduces the MP Cost of `Breathwork` by 100\r",
       "max_lv": 1,
@@ -1650,7 +1674,8 @@
       "id": 126,
       "name": "Emergency Care",
       "lv": [
-        220
+        220,
+        270
       ],
       "detail": "> Reduces the MP Aggro triggered by \"First Aid\" by 1 per level\r",
       "max_lv": 10,
@@ -1692,7 +1717,7 @@
       "lv": [
         230
       ],
-      "detail": "> `Chronos Shift` can be activated even if there is not enough MP by consuming HP.<br/>\r\n> (60-10×level)% HP required per 100MP that you're short of.\r",
+      "detail": "> `Chronos Shift` can be activated even if there is not enough MP by consuming HP.<br/>\r\n> (60-10×level)% HP required per 100MP that you're short of.<br/>\r\n> This HP consumption can get you knocked out.\r",
       "max_lv": 5,
       "rarity": ""
     },
@@ -1742,7 +1767,7 @@
       "lv": [
         230
       ],
-      "detail": "> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.\r",
+      "detail": "> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.<br/>\r\n> Less effective if there are multiple recipients.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1864,6 +1889,106 @@
       ],
       "detail": "> Anticipate increases by (level)% if a one-handed sword is equipped.<br/>\r\n> Equipping a shield will triple the amount increased.\r",
       "max_lv": 5,
+      "rarity": ""
+    },
+    {
+      "id": 148,
+      "name": "Berserk Rush",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 149,
+      "name": "Ironhearted Chronos Drive",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 150,
+      "name": "Water Release: Aqua Mirror",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 151,
+      "name": "Violent Lunar Misfortune",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 152,
+      "name": "Purifying Twin Buster Blade",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 153,
+      "name": "Distinct Parabola Cannon",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 154,
+      "name": "Lunas Slash Absorber",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 155,
+      "name": "Exclusive Bodyguard",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 156,
+      "name": "Red Zone Shield",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
+      "rarity": ""
+    },
+    {
+      "id": 157,
+      "name": "Blue Zone Shield",
+      "lv": [
+        270
+      ],
+      "detail": "> \r",
+      "max_lv": 0,
       "rarity": ""
     }
   ]
