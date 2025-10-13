@@ -24,70 +24,70 @@ See/search "Heal Bank" and "Chancy Trap" as an example.
 <hr />
 
 ## Physical Attack Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > ATK +1 per level.
 
 Max Level: 30<br/>
 Rarity: Common
 
 ## Magic Attack Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > MATK +1 per level.
 
 Max Level: 30<br/>
 Rarity: Common
 
 ## Max HP Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > MaxHP +10 per level.
 
 Max Level: 100<br/>
 Rarity: Common
 
 ## Max MP Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > MaxMP +1 per level.
 
 Max Level: 100<br/>
 Rarity: Common
 
 ## Physical Defense Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > DEF +1 per level.
 
 Max Level: 50<br/>
 Rarity: Common
 
 ## Magic Defense Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > MDEF +1 per level.
 
 Max Level: 50<br/>
 Rarity: Common
 
 ## Accuracy Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > Accuracy +1 per level.
 
 Max Level: 10<br/>
 Rarity: Rare
 
 ## Dodge Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > Dodge +1 per level.
 
 Max Level: 10<br/>
 Rarity: Rare
 
 ## Attack Speed Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > ASPD +1 per level.
 
 Max Level: 100<br/>
 Rarity: Common
 
 ## Magic Speed Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
 > CSPD<br/>+1 per level.
 
 Max Level: 100<br/>
@@ -206,7 +206,7 @@ Max Level: 5<br/>
 Rarity: Rare
 
 ## Poison Heal
-(Lv: 30, 50)
+(Lv: 30, 50, 270)
 > 1% per level chance having [Poison] status removed when taking damage inflicted by [Poison].
 
 Max Level: 30<br/>
@@ -220,14 +220,14 @@ Max Level: 1<br/>
 Rarity: Legendary
 
 ## Emergency HP Heal
-(Lv: 30, 50, 150)
+(Lv: 30, 50, 150, 270)
 > Instantly restores 11% _(+1% per level)_ of your HP when there is only 25% HP or less due to monster’s attacks. Cooldown: 60 seconds
 
 Max Level: 10<br/>
 Rarity: Rare
 
 ## Emergency MP Heal
-(Lv: 50, 150)
+(Lv: 50, 150, 270)
 > Immediately restores 10 MP per level if there is not enough MP. Cooldown: 60 second.
 
 Max Level: 10<br/>
@@ -241,7 +241,7 @@ Max Level: 30<br/>
 Rarity: Uncommon
 
 ## Final Resistance
-(Lv: 50, 170, 220)
+(Lv: 50, 170, 220, 270)
 > If you get knocked out last in the party, you will squeeze through every last bit of your strength to quickly revive for 6 _(+1 per level)_ seconds before becoming unable to battle again. _*First Aid, Struggle, Revive Droplets Unavailable._
 
 Max Level: 5<br/>
@@ -353,7 +353,7 @@ Max Level: 10<br/>
 Rarity: Uncommon
 
 ## Shared Destiny
-(Lv: 70, 190, 220)
+(Lv: 70, 190, 220, 270)
 > Each party member excluding you will raise ATK and MATK by 1%, but 100% of HP will be lost whenever a member gets knocked out. _*This HP loss could knock player out. No increase in ATK or MATK boost but -1% HP loss per level when a member gets knocked out._
 
 Max Level: 2<br/>
@@ -388,7 +388,7 @@ Max Level: 10<br/>
 Rarity: Legendary (Lv 90) / Super Rare (Lv 190)
 
 ## Monophobia
-(Lv: 90, 170, 220)
+(Lv: 90, 170, 220, 270)
 > Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost. _*This HP loss won’t knock player out. Healing range: 4m, range increases by 1m per level._
 
 Max Level: 5<br/>
@@ -402,7 +402,7 @@ Max Level: 20<br/>
 Rarity: Rare
 
 ## Impetus
-(Lv: 110, 130)
+(Lv: 110, 130, 270)
 > Reduces movement speed decline due to [Slow] by 5% per level.
 
 Max Level: 10<br/>
@@ -528,7 +528,7 @@ Max Level: 10<br/>
 Rarity: Super Rare
 
 ## Bloody Warrior
-(Lv: 150)
+(Lv: 150, 270)
 > Raises normal attack power and AMPR by 5% per level while afflicted with [Bleed].
 
 Max Level: 20<br/>
@@ -570,7 +570,7 @@ Max Level: 10<br/>
 Rarity: Rare
 
 ## Frugal Shield Bash
-(Lv: 170, 230)
+(Lv: 170, 230, 270)
 > Restores 10 MP _(+10 MP per level)_ when `Shield Bash` inflicts [Stun].
 
 Max Level: 10<br/>
@@ -630,7 +630,7 @@ Max Level: 9<br/>
 Rarity: Rare
 
 ## Focus Resonance
-(Lv: 210)
+(Lv: 210, 270)
 > The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.
 > 
 > *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*
@@ -744,7 +744,7 @@ Max Level: 1<br/>
 Rarity: 
 
 ## Mana Crystal Catalyst
-(Lv: 210, 220)
+(Lv: 210, 220, 270)
 > Reduces the casting time of `Mana Crystal` by 10% per level, but the amount of MP recovered gets reduced by 100.
 
 Max Level: 5<br/>
@@ -774,7 +774,7 @@ Max Level: 1<br/>
 Rarity: 
 
 ## Silent P. Defense
-(Lv: 210)
+(Lv: 210, 270)
 > Reduces the aggro generated when `P. Defense` is successful by 10% per level.
 
 Max Level: 10<br/>
@@ -833,7 +833,7 @@ Max Level: 1<br/>
 Rarity: 
 
 ## Perfect Triple Thrust
-(Lv: 220)
+(Lv: 220, 270)
 > Restores 10×level MP if `Triple Thrust` is successfully activated without taking any damage when used alone.
 
 Max Level: 10<br/>
@@ -847,7 +847,7 @@ Max Level: 1<br/>
 Rarity: 
 
 ## Mega Demon Wind Shuriken
-(Lv: 220)
+(Lv: 220, 270)
 > MP Cost of `Demon Wind Shuriken` increases by 200-100×level, but, in exchange, the number of times the shuriken can hit without reduced damage is increased by 1.
 
 Max Level: 2<br/>
@@ -862,14 +862,14 @@ Rarity:
 
 ## Protection Aegis
 (Lv: 220)
-> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.
-Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.
+> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.<br/>
+> Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.
 
 Max Level: 1<br/>
 Rarity: 
 
 ## Frugal Breathwork
-(Lv: 220)
+(Lv: 220, 270)
 > Reduces the MP Cost of `Breathwork` by 100
 
 Max Level: 1<br/>
@@ -930,7 +930,7 @@ Max Level: 1<br/>
 Rarity: 
 
 ## Emergency Care
-(Lv: 220)
+(Lv: 220, 270)
 > Reduces the MP Aggro triggered by "First Aid" by 1 per level
 
 Max Level: 10<br/>
@@ -960,8 +960,8 @@ Rarity:
 ## Extreme Chronos Shift
 (Lv: 230)
 > `Chronos Shift` can be activated even if there is not enough MP by consuming HP.<br/>
-> (60-10×level)% HP required per 100MP that you're short of.
-This HP consumption can get you knocked out.
+> (60-10×level)% HP required per 100MP that you're short of.<br/>
+> This HP consumption can get you knocked out.
 
 Max Level: 5<br/>
 Rarity: 
@@ -996,8 +996,8 @@ Rarity:
 
 ## Instructor
 (Lv: 230)
-> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.
-Less effective if there are multiple recipients.
+> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.<br/>
+> Less effective if there are multiple recipients.
 
 Max Level: 10<br/>
 Rarity: 
@@ -1096,3 +1096,73 @@ Rarity:
 
 Max Level: 5<br/>
 Rarity: 
+
+## Berserk Rush
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Ironhearted Chronos Drive
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Water Release: Aqua Mirror
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Violent Lunar Misfortune
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Purifying Twin Buster Blade
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Distinct Parabola Cannon
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Lunas Slash Absorber
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Exclusive Bodyguard
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Red Zone Shield
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity: 
+
+## Blue Zone Shield
+(Lv: 270)
+> 
+
+Max Level: 0<br/>
+Rarity:
