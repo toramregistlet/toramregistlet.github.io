@@ -4,7 +4,7 @@ const note = document.getElementById('note');
 const preview1 = document.getElementById('preview1');
 const preview2 = document.getElementById('preview2');
 
-const registletUrl = "https://toramregistlet.github.io/Registlet/Registlet.md";
+const registletUrl = "./Registlet/Registlet.md";
 
 const noteText = 
 `> **TL;DR:**  

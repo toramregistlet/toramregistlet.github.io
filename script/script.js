@@ -100,7 +100,7 @@ function convertJsonToMD(registletJson) {
     const registletMd = registletJson.map(({ name, lv, detail, max_lv, rarity }) => {
         const stoodieLv = lv.slice().sort((a, b) => a - b).join(", ");
 
-        return `## ${name}\n(Lv: ${stoodieLv})\n${detail}\n\nMax Level: ${max_lv}<br/>\nRarity: ${rarity}`;
+        return `## ${name}\n(Lv: ${stoodieLv})\n${detail}\n\nMax Level: ${max_lv}  \nRarity: ${rarity}`;
     }).join('\n\n');
 
     downloadFile(registletMd.trim());
