@@ -237,7 +237,7 @@
         250,
         270
       ],
-      "detail": "> CSPD<br/>+1 per level.\r",
+      "detail": "> CSPD  +1 per level.\r",
       "max_lv": 100,
       "rarity": "Common"
     },
@@ -251,7 +251,7 @@
         70,
         90
       ],
-      "detail": "> Increases EXP Gain by 10% but lowers damage dealt by 14% _(-1% per level)._\r",
+      "detail": "> Increases EXP Gain by 10% but lowers damage dealt by 14% *(-1% per level).*.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
     },
@@ -501,7 +501,7 @@
         70,
         220
       ],
-      "detail": "> A MISS hit while you are [Blind] may be turned into a GRAZE hit when possible. _(Chance is unknown)_\r",
+      "detail": "> A MISS hit while you are [Blind] may be turned into a GRAZE hit when possible. *(Chance is unknown)*\r",
       "max_lv": 1,
       "rarity": "Legendary"
     },
@@ -514,7 +514,7 @@
         150,
         270
       ],
-      "detail": "> Instantly restores 11% _(+1% per level)_ of your HP when there is only 25% HP or less due to monster’s attacks. Cooldown: 60 seconds\r",
+      "detail": "> Instantly restores 11% *(+1% per level)* of your HP when there is only 25% HP or less due to monster’s attacks. Cooldown: 60 seconds\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -551,7 +551,7 @@
         220,
         270
       ],
-      "detail": "> If you get knocked out last in the party, you will squeeze through every last bit of your strength to quickly revive for 6 _(+1 per level)_ seconds before becoming unable to battle again. _*First Aid, Struggle, Revive Droplets Unavailable._\r",
+      "detail": "> If you get knocked out last in the party, you will squeeze through every last bit of your strength to quickly revive for 6 *(+1 per level)* seconds before becoming unable to battle again.  \r\n> **First Aid, Struggle, Revive Droplets Unavailable.*\r",
       "max_lv": 5,
       "rarity": "Legendary (Lv 50) / Super Rare (Lv 170)"
     },
@@ -638,7 +638,7 @@
         130,
         150
       ],
-      "detail": "> Modifies the effect of `Power Wave` so that it raises normal attack power by 0% instead of extending the range. _*The increment depends on the skill level. 0.5% increase per skill level (lv1 is 0.5% but rounded down), 0.5% increase per registlet level (so max 10% with lv10 on both)._\r",
+      "detail": "> Modifies the effect of `Power Wave` so that it raises normal attack power by 0% instead of extending the range.  \r\n> **The increment depends on the skill level. 0.5% increase per skill level (lv1 is 0.5% but rounded down), 0.5% increase per Registlet level (so max 10% with lv10 on both).*\r",
       "max_lv": 10,
       "rarity": "Uncommon"
     },
@@ -666,7 +666,7 @@
         130,
         150
       ],
-      "detail": "> Reduces the range of `Spinning Slash` and removes the [Knockback] effect, but raises its power by 5% per level.\r",
+      "detail": "> Reduces the range of `Spinning Slash` and removes the [Knock Back] effect, but raises its power by 5% per level.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
     },
@@ -777,7 +777,7 @@
         220,
         270
       ],
-      "detail": "> Each party member excluding you will raise ATK and MATK by 1%, but 100% of HP will be lost whenever a member gets knocked out. _*This HP loss could knock player out. No increase in ATK or MATK boost but -1% HP loss per level when a member gets knocked out._\r",
+      "detail": "> Each party member excluding you will raise ATK and MATK by 1%, but 100% of HP will be lost whenever a member gets knocked out.  \r\n> **This HP loss could knock player out. No increase in ATK or MATK boost but -1% HP loss per level when a member gets knocked out.*\r",
       "max_lv": 2,
       "rarity": "Legendary (Lv 70) / Super Rare (Lv 170)"
     },
@@ -838,7 +838,7 @@
         220,
         270
       ],
-      "detail": "> Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost. _*This HP loss won’t knock player out. Healing range: 4m, range increases by 1m per level._\r",
+      "detail": "> Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost.  \r\n> **This HP loss won’t knock player out. Healing range: 4m, range increases by 1m per level.*\r",
       "max_lv": 5,
       "rarity": "Epic / Super Rare (Lv 170)"
     },
@@ -895,7 +895,7 @@
         220,
         230
       ],
-      "detail": "> Raises normal attack power in exchange for AMPR _*Power increases more with higher AMPR._\r",
+      "detail": "> Raises normal attack power in exchange for AMPR.  \r\n> **Power increases more with higher AMPR.*\r",
       "max_lv": 1,
       "rarity": "Legendary"
     },
@@ -940,7 +940,7 @@
         130,
         230
       ],
-      "detail": "> Restores 10% of your HP when you defeat a monster. Cooldown 29 seconds _(-1 second per level)_\r",
+      "detail": "> Restores 10% of your HP when you defeat a monster. Cooldown 29 seconds *(-1 second per level)*\r",
       "max_lv": 10,
       "rarity": "Super Rare"
     },
@@ -951,7 +951,7 @@
         130,
         230
       ],
-      "detail": "> Reduces damage taken from behind _(opposite camera direction)_ by 1% per level. The damage will be further reduced when taken from directly behind.\r",
+      "detail": "> Reduces damage taken from behind *(opposite camera direction)* by 1% per level. The damage will be further reduced when taken from directly behind.\r",
       "max_lv": 10,
       "rarity": "Epic"
     },
@@ -1086,7 +1086,7 @@
         150,
         250
       ],
-      "detail": "> Restores 100 MP when you defeat a monster. Cooldown: 29 seconds _(-1 second per level)._\r",
+      "detail": "> Restores 100 MP when you defeat a monster. Cooldown: 29 seconds *(-1 second per level).*\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -1097,7 +1097,7 @@
         150,
         230
       ],
-      "detail": "> Restores 11 MP _(+1MP per level)_ every 3 seconds, but all MP will be lost if you get aggro and this Registlet will be suspended for 30 seconds.\r",
+      "detail": "> Restores 11 MP *(+1MP per level)* every 3 seconds, but all MP will be lost if you get aggro and this Registlet will be suspended for 30 seconds.\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -1108,7 +1108,7 @@
         150,
         250
       ],
-      "detail": "> Lowers Max MP by 1000, but when you are knocked out, the remaining MP will be shared among your party members. _*Players whose MP gets restored by this effect cannot enjoy the same effect for 180 seconds. -100 Max MP reduction per level._\r",
+      "detail": "> Lowers Max MP by 1000, but when you are knocked out, the remaining MP will be shared among your party members.  \r\n> **Players whose MP gets restored by this effect cannot enjoy the same effect for 180 seconds. -100 Max MP reduction per level.*\r",
       "max_lv": 10,
       "rarity": "Epic"
     },
@@ -1145,7 +1145,7 @@
         230,
         270
       ],
-      "detail": "> Restores 10 MP _(+10 MP per level)_ when `Shield Bash` inflicts [Stun].\r",
+      "detail": "> Restores 10 MP *(+10 MP per level)* when `Shield Bash` inflicts [Stun].\r",
       "max_lv": 10,
       "rarity": "Uncommon"
     },
@@ -1184,7 +1184,7 @@
         210,
         220
       ],
-      "detail": "> Increases the activation rate of `Whack` by 1% _(+1% per level)._\r",
+      "detail": "> Increases the activation rate of `Whack` by 1% *(+1% per level).*\r",
       "max_lv": 5,
       "rarity": "Super Rare"
     },
@@ -1197,7 +1197,7 @@
         210,
         220
       ],
-      "detail": "> Increases the activation rate of `Concentrate` by 1% _(+1% per level)._\r",
+      "detail": "> Increases the activation rate of `Concentrate` by 1% *(+1% per level).*\r",
       "max_lv": 10,
       "rarity": "Super Rare"
     },
@@ -1221,7 +1221,7 @@
         170,
         230
       ],
-      "detail": "> The Skill `Resonance` will always choose the buff that boosts ATK/MATK, but the ATK/MATK boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*\r",
+      "detail": "> The Skill `Resonance` will always choose the buff that boosts ATK/MATK, but the ATK/MATK boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": "Rare"
     },
@@ -1232,7 +1232,7 @@
         190,
         250
       ],
-      "detail": "> The Skill `Resonance` will always choose the buff that boosts ASPD/CSPD, but the ASPD/CSPD boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*\r",
+      "detail": "> The Skill `Resonance` will always choose the buff that boosts ASPD/CSPD, but the ASPD/CSPD boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": "Rare"
     },
@@ -1243,7 +1243,7 @@
         210,
         270
       ],
-      "detail": "> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance registlets are equipped, the first Resonance registlet equipped will take effect*\r",
+      "detail": "> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": ""
     },
@@ -1255,7 +1255,7 @@
         190,
         210
       ],
-      "detail": "> Raises the power of `Bloody Bite` by 10% _(+10% per level)._\r",
+      "detail": "> Raises the power of `Bloody Bite` by 10% *(+10% per level).*\r",
       "max_lv": 10,
       "rarity": "Uncommon"
     },
@@ -1279,7 +1279,7 @@
         170,
         230
       ],
-      "detail": "> When `Qi Charge` gives no effect, qi will increase by 10% _(+10% per level)_ if the skill is activated using 2000 MP.\r",
+      "detail": "> When `Qi Charge` gives no effect, qi will increase by 10% *(+10% per level)* if the skill is activated using 2000 MP.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
     },
@@ -1302,7 +1302,7 @@
         170,
         220
       ],
-      "detail": "> Normal attack has 0 second cooldown for 6 seconds _(+1 second per level)_ when getting aggro from the target monster for the first time.\r",
+      "detail": "> Normal attack has 0 second cooldown for 6 seconds *(+1 second per level)* when getting aggro from the target monster for the first time.\r",
       "max_lv": 5,
       "rarity": "Super Rare"
     },
@@ -1313,7 +1313,7 @@
         170,
         230
       ],
-      "detail": "> Reduces aggro by 1% _(+1% per level)_ per 1 combo. Better effect with longer combo.\r",
+      "detail": "> Reduces aggro by 1% *(+1% per level)* per 1 combo. Better effect with longer combo.\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -1324,7 +1324,7 @@
         170,
         250
       ],
-      "detail": "> Damage dealt with skill activated without using a combo is multiplied by 1.01 _(+0.01 per level)_. _*Does not apply to some skills such as charge skills._\r",
+      "detail": "> Damage dealt with skill activated without using a combo is multiplied by 1.01 *(+0.01 per level)*.  \r\n> **Does not apply to some skills such as charge skills.*\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -1335,7 +1335,7 @@
         190,
         250
       ],
-      "detail": "> Removes [Knockback] and [Slow] from `Assault Attack` and increases its power by 10% _(+10% per level)._\r",
+      "detail": "> Removes [Knock Back] and [Slow] from `Assault Attack` and increases its power by 10% *(+10% per level).*\r",
       "max_lv": 10,
       "rarity": "Rare"
     },
@@ -1346,7 +1346,7 @@
         190,
         250
       ],
-      "detail": "> Raises the power of `Rage Sword` by 10% _(+10% per level)_. Aggro doubles if the target is hostile towards you.\r",
+      "detail": "> Raises the power of `Rage Sword` by 10% *(+10% per level)*. Aggro doubles if the target is hostile towards you.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
     },
@@ -1380,7 +1380,7 @@
         190,
         230
       ],
-      "detail": "> The range of `Royal Heal` effect is increased by 1m _(+1m per level)_, but the amount of HP restores is halved.\r",
+      "detail": "> The range of `Royal Heal` effect is increased by 1m *(+1m per level)*, but the amount of HP restores is halved.\r",
       "max_lv": 8,
       "rarity": "Super Rare"
     },
@@ -1391,7 +1391,7 @@
         190,
         220
       ],
-      "detail": "> Shortens the duration of dance skill effect by 5 sec. _*Does not apply to `Spirited Dance`._\r",
+      "detail": "> Shortens the duration of dance skill effect by 5 sec. **Does not apply to `Spirited Dance`.*\r",
       "max_lv": 1,
       "rarity": "Legendary"
     },
@@ -1465,7 +1465,7 @@
         220,
         250
       ],
-      "detail": "> Reduces the base multiplier of `Demon Claw` by 100%, but the skill becomes a single target skill instead of an AOE.\r\n>\r\n> _Note: The base multiplier of `Demon Claw` is (100 + 10×skill level). With this registlet, that base multiplier becomes (10×skill level)._\r",
+      "detail": "> Reduces the base multiplier of `Demon Claw` by 100%, but the skill becomes a single target skill instead of an AOE.\r\n> \r\n> *Note: The base multiplier of `Demon Claw` is (100 + 10×skill level). With this Registlet, that base multiplier becomes (10×skill level).*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1498,7 +1498,7 @@
         210,
         230
       ],
-      "detail": "> The amount of HP recovered by `Mini Heal` and `Heal` is halved.<br/>\r\n> This regislet gives the user the ability to accumulate Heal Stacks every 3 seconds.<br/>\r\n> The max Heal Stacks that can be accumulated is equal to the registlet's level.<br/>\r\n> When using `Mini Heal` or `Heal` on an ally, Heal Stacks are consumed instead of MP and the skill's cast time is removed.<br/>\r\n> The extra MP cost due to `Asura Aura` is still paid even when using the Heal Stacks.\r",
+      "detail": "> The amount of HP recovered by `Mini Heal` and `Heal` is halved.  \r\n> This regislet gives the user the ability to accumulate Heal Stacks every 3 seconds.  \r\n> The max Heal Stacks that can be accumulated is equal to the Registlet's level.  \r\n> When using `Mini Heal` or `Heal` on an ally, Heal Stacks are consumed instead of MP and the skill's cast time is removed.  \r\n> The extra MP cost due to `Asura Aura` is still paid even when using the Heal Stacks.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1509,7 +1509,7 @@
         210,
         220
       ],
-      "detail": "> Enables trap skills from the `Hunter` skill tree to be set at the target's feet, but if the trap activates immediately, you will also be affected.\r\n>\r\n> Self Ailment Duration due to Traps:<br/>\r\n> Sleep Trap: Sleep @15 sec<br/>\r\n> Bear Trap: Stop @10 sec<br/>\r\n> Land Mine: Ignite @10 sec<br/>\r\n> Dark Trap: Lethargy @10 sec\r",
+      "detail": "> Enables trap skills from the `Hunter` skill tree to be set at the target's feet, but if the trap activates immediately, you will also be affected.\r\n> \r\n> Self Ailment Duration due to Traps:  \r\n> Sleep Trap: Sleep @15 sec  \r\n> Bear Trap: Stop @10 sec  \r\n> Land Mine: Ignite @10 sec  \r\n> Dark Trap: Lethargy @10 sec\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1521,7 +1521,7 @@
         220,
         250
       ],
-      "detail": "> Shortens the time for a song effect to increase when used continuously by 1 second per level, but aggro and damage received while singing are increased by 10%.\r",
+      "detail": "> Allows smooth song resumption with `Ad-Lib`.  \r\n> A successful parry with `Ad-Lib` grants (Registlet's level) stack(s) of `Beat Blast`.\r",
       "max_lv": 6,
       "rarity": ""
     },
@@ -1532,7 +1532,7 @@
         220,
         250
       ],
-      "detail": "> Changes the proration dealt by `Magic: Impact` to physical proration\r",
+      "detail": "> Changes the proration dealt by `Magic: Impact` to physical proration.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1563,7 +1563,7 @@
       "lv": [
         220
       ],
-      "detail": "> Gain [Invincible] for 1 second if `Floating Kick` is activated while moving\r",
+      "detail": "> Gain [Invincible] for 1 second if `Floating Kick` is activated while moving.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1595,7 +1595,7 @@
       "lv": [
         220
       ],
-      "detail": "> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.<br/>\r\n> Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.\r",
+      "detail": "> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.  \r\n> Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1606,7 +1606,7 @@
         220,
         270
       ],
-      "detail": "> Reduces the MP Cost of `Breathwork` by 100\r",
+      "detail": "> Reduces the MP Cost of `Breathwork` by 100.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1616,7 +1616,7 @@
       "lv": [
         220
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Fire element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Fire element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1626,7 +1626,7 @@
       "lv": [
         220
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Water element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Water element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1636,7 +1636,7 @@
       "lv": [
         220
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Wind element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Wind element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1646,7 +1646,7 @@
       "lv": [
         220
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Earth element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Earth element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1656,7 +1656,7 @@
       "lv": [
         230
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Light element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Light element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1666,7 +1666,7 @@
       "lv": [
         250
       ],
-      "detail": "> If the effect of a skill changes based on element, equipping this registlet forces that skill to use the Dark element effect.\r\n>\r\n> _Note: This does not provide awaken element. It just changes the effect of the skill!_\r",
+      "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Dark element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1677,7 +1677,7 @@
         220,
         270
       ],
-      "detail": "> Reduces the MP Aggro triggered by \"First Aid\" by 1 per level\r",
+      "detail": "> Reduces the MP Aggro triggered by \"First Aid\" by 1 per level.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1697,7 +1697,7 @@
       "lv": [
         230
       ],
-      "detail": "> Sheathing while moving will no longer occur\r",
+      "detail": "> Sheathing while moving will no longer occur.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1717,7 +1717,7 @@
       "lv": [
         230
       ],
-      "detail": "> `Chronos Shift` can be activated even if there is not enough MP by consuming HP.<br/>\r\n> (60-10×level)% HP required per 100MP that you're short of.<br/>\r\n> This HP consumption can get you knocked out.\r",
+      "detail": "> `Chronos Shift` can be activated even if there is not enough MP by consuming HP.  \r\n> (60-10×level)% HP required per 100MP that you're short of.  \r\n> This HP consumption can get you knocked out.\r",
       "max_lv": 5,
       "rarity": ""
     },
@@ -1727,7 +1727,7 @@
       "lv": [
         230
       ],
-      "detail": "> The metorites from `Magic: Crash` become much smaller in size, but the time of impact is shortened by (0.1×level - 0.1) seconds and all the meteorites will drop down even when not hitting the target\r",
+      "detail": "> The size of the meteorites from `Magic: Crash` and their chance to inflict ailments are greatly reduced, but their time to impact is shortened by (0.1 × level - 0.1) seconds, and [Guard] no longer works against them.\r",
       "max_lv": 5,
       "rarity": ""
     },
@@ -1767,7 +1767,7 @@
       "lv": [
         230
       ],
-      "detail": "> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.<br/>\r\n> Less effective if there are multiple recipients.\r",
+      "detail": "> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.  \r\n> Less effective if there are multiple recipients.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1797,7 +1797,7 @@
       "lv": [
         250
       ],
-      "detail": "> Reduces the multiplier of `Magic: Storm` by 50%, but increases the storm's duration by (level) seconds.\r\n>\r\n> _Note: The multiplier is not halved, it is reduced. If the original multiplier is 200%, it becomes 150% with this registlet._\r",
+      "detail": "> Reduces the multiplier of `Magic: Storm` by 50%, but increases the storm's duration by (level) seconds.\r\n> \r\n> *Note: The multiplier is not halved, it is reduced. If the original multiplier is 200%, it becomes 150% with this Registlet.*\r",
       "max_lv": 5,
       "rarity": ""
     },
@@ -1817,7 +1817,7 @@
       "lv": [
         250
       ],
-      "detail": "> The skill `Sneak Attack` changes into a time-based buff instead of a fixed amount of uses.<br/>\r\n> The buff duration is (`Sneak Attack`'s skill level) seconds.\r",
+      "detail": "> The skill `Sneak Attack` changes into a time-based buff instead of a fixed amount of uses.  \r\n> The buff duration is (`Sneak Attack`'s skill level) seconds.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1827,7 +1827,7 @@
       "lv": [
         250
       ],
-      "detail": "> When using `Aura Blade` while the targeted enemy is out of the skill's AOE range, the skill will releases a single attack shock wave towards the targeted enemy.<br/>\r\n> The shock wave deals (level×10)% of the skill's original damage.\r",
+      "detail": "> When using `Aura Blade` while the targeted enemy is out of the skill's AOE range, the skill will releases a single attack shock wave towards the targeted enemy.  \r\n> The shock wave deals (level×10)% of the skill's original damage.\r",
       "max_lv": 8,
       "rarity": ""
     },
@@ -1837,7 +1837,7 @@
       "lv": [
         250
       ],
-      "detail": "> Increases the multiplier of `Buster Lance` by 10% per level.<br/>\r\n> The range and distance at which the multiplier of `Buster Lance` starts to decrease is increased, making it always a long-range attack.\r",
+      "detail": "> Increases the multiplier of `Buster Lance` by 10% per level.  \r\n> The range and distance at which the multiplier of `Buster Lance` starts to decrease is increased, making it always a long-range attack.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1847,7 +1847,7 @@
       "lv": [
         250
       ],
-      "detail": "> `Dauntless` accumulates 1 second faster, but the count will decrease by (12 - level×3) when taking damage.<br/>\r\n> The count will not decrease if the damage is blocked with Guard or certain Mononofu skills.<br/>\r\n> The count will also not decrease when taking damage if you have 100 `Dauntless` stacks.\r",
+      "detail": "> `Dauntless` accumulates 1 second faster, but the count will decrease by (12 - level×3) when taking damage.  \r\n> The count will not decrease if the damage is blocked with Guard or certain Mononofu skills.  \r\n> The count will also not decrease when taking damage if you have 100 `Dauntless` stacks.\r",
       "max_lv": 3,
       "rarity": ""
     },
@@ -1857,7 +1857,7 @@
       "lv": [
         250
       ],
-      "detail": "> Evasion becomes usable even with equipment that doesn't allow it.<br/>\r\n> This registlet gives 2 manual evasions or 1 auto evasion (10 sec cooldown).<br/>\r\n> This effect will not apply if you are equipped with an equipment that already enables Evasion.\r",
+      "detail": "> Evasion becomes usable even with equipment that doesn't allow it.  \r\n> This Registlet gives 2 manual evasions or 1 auto evasion (10 sec cooldown).  \r\n> This effect will not apply if you are equipped with an equipment that already enables Evasion.\r",
       "max_lv": 1,
       "rarity": ""
     },
@@ -1877,7 +1877,7 @@
       "lv": [
         250
       ],
-      "detail": "> Greatly suppresses your own damage output to increase your party's EXP Gain by (level)%.<br/>\r\n> While equipped with this registlet, your damage is capped to 1% of the enemy's HP.\r",
+      "detail": "> Greatly suppresses your own damage output to increase your party's EXP Gain by (level)%.  \r\n> While equipped with this Registlet, your damage is capped to 1% of the enemy's HP.\r",
       "max_lv": 10,
       "rarity": ""
     },
@@ -1887,7 +1887,7 @@
       "lv": [
         250
       ],
-      "detail": "> Anticipate increases by (level)% if a one-handed sword is equipped.<br/>\r\n> Equipping a shield will triple the amount increased.\r",
+      "detail": "> Anticipate increases by (level)% if a one-handed sword is equipped.  \r\n> Equipping a shield will triple the amount increased.\r",
       "max_lv": 5,
       "rarity": ""
     },
@@ -1897,8 +1897,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Reduces the negative effect of `Berserk` by (1 × Regislet Level)% if you take damage from a monster while the skill is active.\r",
+      "max_lv": 5,
       "rarity": ""
     },
     {
@@ -1907,8 +1907,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Changes the additional attack effect of `Chronos Drive` from magic attack (based on INT) to physical attack (based on STR).\r\n> \r\n> *Note: Scaling remains the same. Proration usage of additional hits changes to physical proration.*\r",
+      "max_lv": 1,
       "rarity": ""
     },
     {
@@ -1917,8 +1917,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Changes `Water Release` from a deployable skill to a buff skill.\r",
+      "max_lv": 1,
       "rarity": ""
     },
     {
@@ -1927,8 +1927,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> While `Storm Reaper`'s buff is active the skill `Lunar Misfortune` becomes a close-range attack regardless of distance.  \r\n> (15 - Regislet Level) seconds cooldown after activation.\r",
+      "max_lv": 10,
       "rarity": ""
     },
     {
@@ -1937,8 +1937,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> The power of `Twin Buster Blade` now increases based on the number of debuffs (max 1 types × Registlet's level) on the target.\r",
+      "max_lv": 3,
       "rarity": ""
     },
     {
@@ -1947,18 +1947,18 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> The skill `Parabola Cannon` now only hits monster currently in combat and guarantees a critical hit.\r",
+      "max_lv": 1,
       "rarity": ""
     },
     {
       "id": 154,
-      "name": "Lunas Slash Absorber",
+      "name": "Lunar Slash Absorber",
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> When gaining a new stack, each of current `Lunar Slash` stacks is converted into (?) MP.\r",
+      "max_lv": 10,
       "rarity": ""
     },
     {
@@ -1967,8 +1967,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Reduces the Physical/Magic/Fractional Damage received by the mercenary or partner summoned as a Defender by (3 × Registlet's level)%.\r",
+      "max_lv": 10,
       "rarity": ""
     },
     {
@@ -1977,8 +1977,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Reduces the damage from monster attacks shown with a red warning by 1 (+1 per Registlet's level)%.\r\n> \r\n> However, damage taken from single-target attacks increases by 10% (disadvantage).\r\n> \r\n> *Note: This damage reduction applies multiplicatively with other damage reductions such as Refinement, Resistance*\r",
+      "max_lv": 10,
       "rarity": ""
     },
     {
@@ -1987,8 +1987,8 @@
       "lv": [
         270
       ],
-      "detail": "> \r",
-      "max_lv": 0,
+      "detail": "> Reduces the damage from monster attacks shown with a blue warning by 1 (+1 per Registlet's level)%.\r\n> \r\n> However, damage taken from single-target attacks increases by 10% (disadvantage).\r\n> \r\n> *Note: This damage reduction applies multiplicatively with other damage reductions such as Refinement, Resistance*\r",
+      "max_lv": 10,
       "rarity": ""
     }
   ]
