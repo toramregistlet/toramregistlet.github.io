@@ -20,70 +20,13 @@ body {
     letter-spacing: 1.2px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.input-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.button-container {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-label {
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    color: #e0e0e0;
-    text-decoration: none;
-    height: 3rem;
-    padding: 0 1rem;
-    cursor: pointer;
-    background: #333;
-    border: 1px solid #444;
-}
-
-.container-preview {
-    display: flex;
-    gap: 1rem;
-}
-
-.preview {
+.regis-container {
     background: #0D1117;
     border: 1px solid #333;
     padding: 0 0.8rem;
 }
 
-.left, .right {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 90vh;
-}
-
-.left {
-    resize: horizontal;
-}
-
-.right {
-    width: 100%;
-}
-
-.scrollTopBtn {
+.scroll-top-btn {
     display: none;
     justify-content: center;
     align-items: center;
@@ -104,77 +47,59 @@ label {
 
 /* markdown styles */
 
-.preview h1, .preview h2 {
+.regis-container h1, .regis-container h2 {
     margin: 0;
     margin-top: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #2F353D;
 }
 
-.preview a {
+.regis-container a {
     color: #e0e0e0 !important;
 }
 
-.preview .heading-anchor {
+.regis-container .heading-anchor {
     text-decoration: none;
 }
 
-.preview .heading-anchor:hover {
+.regis-container .heading-anchor:hover {
     text-decoration: underline;
 }
 
-.preview blockquote {
+.regis-container blockquote {
     margin: 0;
     padding-left: 1rem;
     border-left: 4px solid #3D444D;
 }
 
-.preview code {
+.regis-container code {
     padding: 0.1rem 0.2rem;
     background-color: #1E242A;
 }
 
-.preview table {
+.regis-container table {
   border-collapse: collapse;
 }
 
-.preview tr:nth-child(even){
+.regis-container tr:nth-child(even){
     background-color: #151B23;
 }
 
-.preview th {
+.regis-container th {
     background-color: #3D444D;
 }
 
-.preview th, .preview td {
+.regis-container th, .regis-container td {
     padding: 0.2rem 0.4rem;
     border: 1px solid #2F353D;
 }
 
-.preview li {
+.regis-container li {
     margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 768px) {
-    .container-preview {
-        flex-direction: column;
-    }
-
-    .left, .right {
-        width: 100%;
-    }
-
-    .left {
-        height: 100%;
-        min-height: 16vh;
-        resize: vertical;
-    }
-
-    .right {
-        height: 100%;
-    }
-
-    .scrollTopBtn {
+    .scroll-top-btn {
         display: flex;
     }
 }
