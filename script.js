@@ -1,3 +1,7 @@
+function filterLevel(data, level) {
+  return data.filter((registlet) => registlet.lv.includes(level));
+}
+
 async function fetchRegistletJSON(url) {
   try {
     const res = await fetch(url);
@@ -14,4 +18,5 @@ document.addEventListener("DOMContentLoaded", async (event) => {
   const registletJSON = await fetchRegistletJSON(registletUrl);
 
   console.log(registletJSON);
+  console.log(filterLevel(registletJSON.registlet, 70));
 });
