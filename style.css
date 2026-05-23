@@ -134,6 +134,7 @@ select.search {
     text-decoration: underline;
 }
 
+.note blockquote,
 .regis-container blockquote {
     margin: 0;
     padding-left: 1rem;

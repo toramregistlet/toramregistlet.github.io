@@ -12,16 +12,17 @@ function resetDisplay() {
 }
 
 function addRegisCounter(count) {
-  const header = document.querySelector("header");
-  const checkPara = document.querySelector("p");
+  const regisContainer = document.querySelector(".regis-container");
+  const checkPara = document.querySelector("#para-counter");
 
   if (checkPara) {
     checkPara.remove();
   }
   
-  const countHeader = document.createElement("p");
-  countHeader.textContent = `Registlet found: ${count}`;
-  header.appendChild(countHeader);
+  const countPara = document.createElement("p");
+  countPara.textContent = `Registlet found: ${count}`;
+  countPara.id = "para-counter";
+  regisContainer.insertBefore(countPara, regisContainer.firstChild);
 }
 
 function addLevelToSelectBox(data, element) {
@@ -119,12 +120,16 @@ function filterKeyword(data, keyword, level) {
 
 function getFormResult(e, data, keyword, level) {
     e.preventDefault();
+    const anchorResult = document.querySelector("#search-result");
+
     const keywordFiltered = filterKeyword(
       data,
       keyword, 
       Number(level)
     );
     convertToHTML(keywordFiltered);
+
+    anchorResult.click();
 }
 
 async function fetchRegistletJSON(url) {
