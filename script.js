@@ -6,19 +6,46 @@ function display(...args) {
   });
 }
 
-function addLevelToSelectBox(data) {
-  const selectLevel = document.querySelector("#select-level");
+function resetDisplay() {
+  const regisContainer = document.querySelector(".regis-container");
+  regisContainer.replaceChildren();
+}
 
+function addRegisCounter(count) {
+  const header = document.querySelector("header");
+  const checkPara = document.querySelector("p");
+
+  if (checkPara) {
+    checkPara.remove();
+  }
+  
+  const countHeader = document.createElement("p");
+  countHeader.textContent = `Registlet found: ${count}`;
+  header.appendChild(countHeader);
+}
+
+function addLevelToSelectBox(data, element) {
   for (const stoodieLv of data) {
     const optionLevel = document.createElement("option");
     optionLevel.value = stoodieLv.lv;
     optionLevel.textContent = `${stoodieLv.lv} - ${stoodieLv.map}`;
 
-    selectLevel.appendChild(optionLevel);
+    element.appendChild(optionLevel);
   }
 }
 
 function convertToHTML(data) {
+  resetDisplay();
+
+  if (data.length == 0) {
+    const textNotFound = document.createElement("h1");
+    textNotFound.textContent = "NOT FOUND";
+
+    display(textNotFound);
+    addRegisCounter(0);
+    return;
+  }
+
   for (const registlet of data) {
     const nameH2 = document.createElement("h2");
     const nameA = document.createElement("a");
@@ -38,6 +65,8 @@ function convertToHTML(data) {
 
     display(nameH2, stdLv, detail, maxLvRarity);
   }
+
+  addRegisCounter(data.length);
 }
 
 function convertDetail(string) {
@@ -74,10 +103,11 @@ function filterLevel(data, level) {
   return data.filter((registlet) => registlet.lv.includes(level));
 }
 
-function filterKeyword(data, keyword, level = false) {
+function filterKeyword(data, keyword, level) {
   const regex = new RegExp(keyword, "i");
   let dataRegistlet = [];
 
+  // 0 will be assumed as false (going into else)
   if (level) {
     dataRegistlet = filterLevel(data, level);
   } else {
@@ -85,6 +115,16 @@ function filterKeyword(data, keyword, level = false) {
   }
 
   return dataRegistlet.filter((registlet) => regex.test(registlet.name) || regex.test(registlet.detail));
+}
+
+function getFormResult(e, data, keyword, level) {
+    e.preventDefault();
+    const keywordFiltered = filterKeyword(
+      data,
+      keyword, 
+      Number(level)
+    );
+    convertToHTML(keywordFiltered);
 }
 
 async function fetchRegistletJSON(url) {
@@ -102,6 +142,18 @@ document.addEventListener("DOMContentLoaded", async (event) => {
   const registletUrl = "./registlet/registlet.json";
   const registletJSON = await fetchRegistletJSON(registletUrl);
 
+  const searchForm = document.querySelector("form");
+  const selectLevel = document.querySelector("#select-level");
+  const inputKeyword = document.querySelector("#input-keyword");
+
   convertToHTML(registletJSON.registlet);
-  addLevelToSelectBox(registletJSON.stoodie);
+  addLevelToSelectBox(registletJSON.stoodie, selectLevel);
+
+  selectLevel.addEventListener("change", (e) => {
+    getFormResult(e, registletJSON.registlet, inputKeyword.value, selectLevel.value);
+  });
+
+  searchForm.addEventListener("submit", (e) => {
+    getFormResult(e, registletJSON.registlet, inputKeyword.value, selectLevel.value);
+  });
 });
