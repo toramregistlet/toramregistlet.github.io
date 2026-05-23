@@ -15,15 +15,76 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 100%;
-    margin: 1rem;
+    margin: 0;
     background-color: #121212;
     letter-spacing: 1.2px;
 }
 
-.regis-container {
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background: #121212;
+    box-shadow: 0 1px 8px -2px #e0e0e0;
+}
+
+header details summary:hover {
+    text-decoration: underline;
+}
+
+header form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.filter-level,
+.filter-keyword {
+    min-width: calc(50% - 1rem);
+}
+
+.filter-keyword {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 0.25rem;
+}
+
+select.search,
+input.search,
+button.search {
+    font-size: 1.1rem;
+    height: 2.5rem;
+    padding: 0 1rem;
     background: #0D1117;
     border: 1px solid #333;
+}
+
+select.search {
+    width: 100%;
+}
+
+.regis-container {
+    background: #0D1117;
+    margin: 1rem;
     padding: 0 0.8rem;
+    border: 1px solid #333;
+}
+
+.note ul {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.note ul li {
+    margin-bottom: 0.25rem;
+}
+
+.note p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
 }
 
 .scroll-top-btn {
@@ -99,6 +160,15 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    header form {
+        justify-content: center;
+    }
+
+    .filter-level,
+    .filter-keyword {
+        width: 100%;
+    }
+
     .scroll-top-btn {
         display: flex;
     }

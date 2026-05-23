@@ -7,12 +7,28 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Registlet List</h1>
-  
   <a id="top"></a>
+
+  <header class="pc">
+    <details>
+      <summary>Search Registlet</summary>
+      <form>
+        <div class="filter-level">
+          <select class="search" name="stoodie-level" id="select-level">
+            <option value="false">All</option>
+          </select>
+        </div>
+
+        <div class="filter-keyword">
+          <input class="search" type="text" id="input-keyword" name="keyword" placeholder="name or effect">
+          <button class="search">search</button>
+        </div>
+      </form>
+    </details>
+  </header>
   
   <div class="regis-container">
-    <hr/>
+    <div class="note"><hr/>
     <p>The level inside the bracket means the possible drop from corresponding Registlet dungeon level.</p>
 
     <p>Rarity may be inaccurate. It is divided into:
@@ -55,7 +71,7 @@
         </li>
       </ul>
     </i></blockquote>
-    <hr/>
+    <hr/></div>
   </div>
 
   <a class="scroll-top-btn" href="#top">&#8679;</a>

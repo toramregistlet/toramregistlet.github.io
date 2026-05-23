@@ -6,6 +6,18 @@ function display(...args) {
   });
 }
 
+function addLevelToSelectBox(data) {
+  const selectLevel = document.querySelector("#select-level");
+
+  for (const stoodieLv of data) {
+    const optionLevel = document.createElement("option");
+    optionLevel.value = stoodieLv.lv;
+    optionLevel.textContent = `${stoodieLv.lv} - ${stoodieLv.map}`;
+
+    selectLevel.appendChild(optionLevel);
+  }
+}
+
 function convertToHTML(data) {
   for (const registlet of data) {
     const nameH2 = document.createElement("h2");
@@ -21,7 +33,7 @@ function convertToHTML(data) {
     nameA.textContent = registlet.name;
     nameH2.append(nameA);
 
-    stdLv.textContent = `(${registlet.lv.join(", ")})`;
+    stdLv.textContent = `(Lv: ${registlet.lv.join(", ")})`;
     maxLvRarity.innerHTML = `Max Level: ${registlet.max_lv}<br>Rarity: ${registlet.rarity}`;
 
     display(nameH2, stdLv, detail, maxLvRarity);
@@ -31,7 +43,7 @@ function convertToHTML(data) {
 function convertDetail(string) {
   const arrPara = string.split("\r\n> \r\n");
   const detail = document.createElement("blockquote");
-  const regexBlockquote = />\s/g;
+  const regexBlockquote = />\s/g;  // originally `>` was used for `<blockquote>` in markdown format
   const regexNewLine = /\r\n/g;
 
   for (const detailPara of arrPara) {
@@ -91,4 +103,5 @@ document.addEventListener("DOMContentLoaded", async (event) => {
   const registletJSON = await fetchRegistletJSON(registletUrl);
 
   convertToHTML(registletJSON.registlet);
+  addLevelToSelectBox(registletJSON.stoodie);
 });
