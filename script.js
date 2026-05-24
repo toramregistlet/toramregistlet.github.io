@@ -8,7 +8,9 @@ function display(...args) {
 
 function resetDisplay() {
   const regisContainer = document.querySelector(".regis-container");
+  const hr = document.createElement("hr");
   regisContainer.replaceChildren();
+  regisContainer.appendChild(hr);
 }
 
 function addRegisCounter(count) {
