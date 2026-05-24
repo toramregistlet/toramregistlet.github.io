@@ -13,15 +13,13 @@ function resetDisplay() {
 
 function addRegisCounter(count) {
   const regisContainer = document.querySelector(".regis-container");
-  const checkPara = document.querySelector("#para-counter");
 
-  if (checkPara) {
-    checkPara.remove();
+  if (regisContainer.firstElementChild.tagName === "P") {
+    regisContainer.firstChild.remove();
   }
   
   const countPara = document.createElement("p");
   countPara.textContent = `Registlet found: ${count}`;
-  countPara.id = "para-counter";
   regisContainer.insertBefore(countPara, regisContainer.firstChild);
 }
 
@@ -78,13 +76,16 @@ function convertDetail(string) {
 
   for (const detailPara of arrPara) {
     const para = document.createElement("p");
-    const formatted = detailPara
+
+    const cleaned = detailPara
       .replace(regexNewLine, "<br/>")
       .replace(regexBlockquote, "");
-    const codeTagged = formatted
+    const codeTagged = cleaned
       .replace(/`([^`]+)`/g, '<code>$1</code>');
+    const italic = codeTagged
+      .replace(/\*([^\*]+)\*/g, '<i>$1</i>');
 
-    para.innerHTML = codeTagged;
+    para.innerHTML = italic;  // var italic is the result of all the format (clean, code tag & italic)
     detail.appendChild(para);
   }
 
@@ -95,9 +96,8 @@ function generateSlug(text) {
   return text
     .toLowerCase()
     .trim()
-    .replace(/[^\w\s-]/g, '') // hapus karakter khusus
-    .replace(/[\s_-]+/g, '-') // replace spasi/underscore jadi dash
-    .replace(/^-+|-+$/g, ''); // hapus dash di awal/akhir
+    .replace(/[^\w\s-]/g, '')  // delete all characters that aren't alphabet, white space and hyphen
+    .replace(/[\s_-]+/g, '-'); // replace spaces, underscores & hyphens into 1 hyphen
 }
 
 function filterLevel(data, level) {
