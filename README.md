@@ -1,30 +1,8 @@
-> **TL;DR:**  
-> This app only help to automate update list of Stoodie level on existing registlets and add new registlets to the list. Not including registlet descriptions.
+The first reason I made this small website was to combine data from [this Google Docs](https://docs.google.com/document/d/1-_SW5viLkHp7H8CPbTCDvm8DU8k4w_xifvHbV0Og15M/edit?usp=sharing), [Toram Xensei Discord server](https://discord.gg/KvYR5y2nGc) and [coryn.club](https://coryn.club/registlet.php) into one place so I could use the browser’s search feature *(`Ctrl` + `F`)*. Other places that provide registlet info require too much effort *(many clicks, scrolling and loading)* just for a quick look at the registlet I wanted to check. I also added additional tools to help me update the registlet list and preview the markdown format live from this small website.
 
-# How to Use:
-1. Download these files (if you don't have them)
-    - <a href="./Registlet/Registlet.csv" target="_blank">Registlet.csv</a>
-    - <a href="./Registlet/Registlet.md" target="_blank">Registlet.md</a>  
-        <small>_To download <code>Registlet.md</code> after clicking link above:_  
-            - _PC: ctrl+s to download. Make sure it's <code>.md</code>, not <code>.txt</code>._  
-            - _Mobile: find download page button on your browser._</small>
-2. Update file <code>Registlet.csv</code>.  
-    <small>_(Manually adding & crosschecking. Use excel, Google Sheets or even notepad)_</small>
-3. Upload <code>Registlet.csv</code> and <code>Registlet.md</code> then click submit.
-4. You get the result
-   - Updated with new registlets you added to <code>Registlet.csv</code>
-   - List Stoodie lv where you can get that registlet automatically updated
+Now, I rebuilt this website mainly for coding practice/exercise, and the website is more focused on the registlet list without those two additional tools. When I need those tools for updating the registlet list, I could do it locally by switching to old branch then push the updated list *(`registlet` dir)* into main branch.
 
-**Not fully automated:**
-- Refer to the second step
-- In the fourth step, you’ll need to manually add the registlet description.  
-    <small>_(Just one time thing, and only for new registlets or ones that got changes if Asobimo updates them.)_</small>
-- Manually fix the list order  
-    <small>_(copy paste to rearrange the list in <code>Registlet.md</code>)_</small>
+Also now, there is better place that provide what I need for a quick look at the registlet info, [venenako.app](https://venenako.app/regislets)
 
-## How to Update the List:
-- When Asobimo updates new registlets, do the steps from <a href="https://toramregistlet.github.io/update.html#note">How to Use</a>.  
-It will automatically update the list without ruining the list order that you have fixed _(if you upload that fixed <code>.md</code> file)_
-- If Asobimo changed existing registlet's name, make sure to change it both on <code>Registlet.csv</code> and <code>Registlet.md</code> before uploading them.
-* * *
-# 🟡 Here if you need <a href="./Registlet/registlets.json" target="_blank">registlets.json</a>
+> [!NOTE]
+> If any of you guys need the `.json` files for some reasons, you could download it [here](./registlet/registlet.json) or fetch from there for something like API, idk 😅

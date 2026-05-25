@@ -1,6 +1,68 @@
 {
+  "stoodie": [
+    {
+      "map": "Underground Ruins",
+      "lv": 10
+    },
+    {
+      "map": "Fiery Volcano",
+      "lv": 30
+    },
+    {
+      "map": "Ancient Empress's Tomb",
+      "lv": 50
+    },
+    {
+      "map": "Gravel Terrace",
+      "lv": 70
+    },
+    {
+      "map": "Garden of Sublimation",
+      "lv": 90
+    },
+    {
+      "map": "Blazing Graben",
+      "lv": 110
+    },
+    {
+      "map": "Monster's Forest",
+      "lv": 130
+    },
+    {
+      "map": "Dark Dragon Shrine",
+      "lv": 150
+    },
+    {
+      "map": "Labilans Sector",
+      "lv": 170
+    },
+    {
+      "map": "Ducia Coast",
+      "lv": 190
+    },
+    {
+      "map": "Fugitive Lake Swamp",
+      "lv": 210
+    },
+    {
+      "map": "Spring of Rebirth",
+      "lv": 220
+    },
+    {
+      "map": "Kabla Jabali",
+      "lv": 230
+    },
+    {
+      "map": "Pipeline Corridor",
+      "lv": 250
+    },
+    {
+      "map": "Menabra Plains",
+      "lv": 270
+    }
+  ],
   "counts": 157,
-  "registlets": [
+  "registlet": [
     {
       "id": 1,
       "name": "Physical Attack Boost",
