@@ -152,6 +152,11 @@ button.search:focus {
     color: #e0e0e0 !important;
 }
 
+.regis-container a,
+a#search-result {
+    scroll-margin-top: 6.75rem;
+}
+
 .regis-container .heading-anchor {
     text-decoration: none;
 }
