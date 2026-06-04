@@ -134,6 +134,16 @@ function getFormResult(e, data, keyword, level) {
     anchorResult.click();
 }
 
+function checkURLHash() {
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+
+    if (target) {
+      target.click();
+    }
+  }
+}
+
 async function fetchRegistletJSON(url) {
   try {
     const res = await fetch(url);
@@ -155,6 +165,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
 
   convertToHTML(registletJSON.registlet);
   addLevelToSelectBox(registletJSON.stoodie, selectLevel);
+  checkURLHash();
 
   selectLevel.addEventListener("change", (e) => {
     getFormResult(e, registletJSON.registlet, inputKeyword.value, selectLevel.value);
