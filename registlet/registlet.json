@@ -59,30 +59,18 @@
     {
       "map": "Menabra Plains",
       "lv": 270
+    },
+    {
+      "map": "Fango Village",
+      "lv": 290
     }
   ],
-  "counts": 157,
+  "counts": 163,
   "registlet": [
     {
       "id": 1,
       "name": "Physical Attack Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> ATK +1 per level.\r",
       "max_lv": 30,
       "rarity": "Common"
@@ -90,23 +78,7 @@
     {
       "id": 2,
       "name": "Magic Attack Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> MATK +1 per level.\r",
       "max_lv": 30,
       "rarity": "Common"
@@ -114,23 +86,7 @@
     {
       "id": 3,
       "name": "Max HP Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> MaxHP +10 per level.\r",
       "max_lv": 100,
       "rarity": "Common"
@@ -138,23 +94,7 @@
     {
       "id": 4,
       "name": "Max MP Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> MaxMP +1 per level.\r",
       "max_lv": 100,
       "rarity": "Common"
@@ -162,23 +102,7 @@
     {
       "id": 5,
       "name": "Physical Defense Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> DEF +1 per level.\r",
       "max_lv": 50,
       "rarity": "Common"
@@ -186,23 +110,7 @@
     {
       "id": 6,
       "name": "Magic Defense Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> MDEF +1 per level.\r",
       "max_lv": 50,
       "rarity": "Common"
@@ -210,23 +118,7 @@
     {
       "id": 7,
       "name": "Accuracy Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> Accuracy +1 per level.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -234,23 +126,7 @@
     {
       "id": 8,
       "name": "Dodge Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> Dodge +1 per level.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -258,23 +134,7 @@
     {
       "id": 9,
       "name": "Attack Speed Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> ASPD +1 per level.\r",
       "max_lv": 100,
       "rarity": "Common"
@@ -282,23 +142,7 @@
     {
       "id": 10,
       "name": "Magic Speed Boost",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        150,
-        170,
-        190,
-        210,
-        220,
-        230,
-        250,
-        270
-      ],
+      "lv": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290],
       "detail": "> CSPD  +1 per level.\r",
       "max_lv": 100,
       "rarity": "Common"
@@ -306,13 +150,7 @@
     {
       "id": 11,
       "name": "Wayfarer",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        90
-      ],
+      "lv": [10, 30, 50, 70, 90],
       "detail": "> Increases EXP Gain by 10% but lowers damage dealt by 14% *(-1% per level).*.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -320,13 +158,7 @@
     {
       "id": 12,
       "name": "Sunbath",
-      "lv": [
-        10,
-        30,
-        50,
-        70,
-        220
-      ],
+      "lv": [10, 30, 50, 70, 220],
       "detail": "> When using Emotions that increase Natural Regen, an additional 25% of MP will be recovered.\r",
       "max_lv": 4,
       "rarity": "Epic"
@@ -334,14 +166,7 @@
     {
       "id": 13,
       "name": "Hard Hit Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Hard Hit` by 5%.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -349,14 +174,7 @@
     {
       "id": 14,
       "name": "Sonic Blade Extender",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Extends the time you must reuse `Sonic Blade` to turn it into `Super Sonic Blade` by 1 seconds per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -364,14 +182,7 @@
     {
       "id": 15,
       "name": "Power Shot Boost",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Power Shot` by 15% per level when [Tumble] is inflicted.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -379,14 +190,7 @@
     {
       "id": 16,
       "name": "Bullseye Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Bullseye` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -394,15 +198,7 @@
     {
       "id": 17,
       "name": "Magic: Arrow Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        220
-      ],
+      "lv": [30, 50, 70, 90, 110, 130, 220],
       "detail": "> Adds one shot per level to the skill `Magic: Arrows`.\r",
       "max_lv": 4,
       "rarity": "Super Rare"
@@ -410,14 +206,7 @@
     {
       "id": 18,
       "name": "Magic: Wall Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Magic: Wall` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -425,14 +214,7 @@
     {
       "id": 19,
       "name": "Smash Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Smash` by 5% is used with knuckles.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -440,14 +222,7 @@
     {
       "id": 20,
       "name": "Sonic Wave Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Sonic Wave` by 5% per level if used with knuckle.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -455,14 +230,7 @@
     {
       "id": 21,
       "name": "Twin Slash Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the critical damage from `Twin Slash` by 1% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -470,14 +238,7 @@
     {
       "id": 22,
       "name": "Cross Parry Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Cross Parry` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -485,14 +246,7 @@
     {
       "id": 23,
       "name": "Flash Stab Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of `Flash Stab` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -500,14 +254,7 @@
     {
       "id": 24,
       "name": "Cannon Spear Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Adds a 10% chance of inflicting [Flinch] to the first attack.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -515,14 +262,7 @@
     {
       "id": 25,
       "name": "Issen Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130
-      ],
+      "lv": [30, 50, 70, 90, 110, 130],
       "detail": "> Raises the power of the second hit of `Issen` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -530,15 +270,7 @@
     {
       "id": 26,
       "name": "Pommel Strike Enhancer",
-      "lv": [
-        30,
-        50,
-        70,
-        90,
-        110,
-        130,
-        220
-      ],
+      "lv": [30, 50, 70, 90, 110, 130, 220],
       "detail": "> Extends the duration of Paralysis caused by the skill `Pommel Strike` by 1 second per level.\r",
       "max_lv": 5,
       "rarity": "Rare"
@@ -546,11 +278,7 @@
     {
       "id": 27,
       "name": "Poison Heal",
-      "lv": [
-        30,
-        50,
-        270
-      ],
+      "lv": [30, 50, 270],
       "detail": "> 1% per level chance having [Poison] status removed when taking damage inflicted by [Poison].\r",
       "max_lv": 30,
       "rarity": "Uncommon"
@@ -558,11 +286,7 @@
     {
       "id": 28,
       "name": "Cat's Eye",
-      "lv": [
-        30,
-        70,
-        220
-      ],
+      "lv": [30, 70, 220],
       "detail": "> A MISS hit while you are [Blind] may be turned into a GRAZE hit when possible. *(Chance is unknown)*\r",
       "max_lv": 1,
       "rarity": "Legendary"
@@ -570,12 +294,7 @@
     {
       "id": 29,
       "name": "Emergency HP Heal",
-      "lv": [
-        30,
-        50,
-        150,
-        270
-      ],
+      "lv": [30, 50, 150, 270],
       "detail": "> Instantly restores 11% *(+1% per level)* of your HP when there is only 25% HP or less due to monster’s attacks. Cooldown: 60 seconds\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -583,11 +302,7 @@
     {
       "id": 30,
       "name": "Emergency MP Heal",
-      "lv": [
-        50,
-        150,
-        270
-      ],
+      "lv": [50, 150, 270],
       "detail": "> Immediately restores 10 MP per level if there is not enough MP. Cooldown: 60 second.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -595,11 +310,7 @@
     {
       "id": 31,
       "name": "Neural Control",
-      "lv": [
-        50,
-        70,
-        250
-      ],
+      "lv": [50, 70, 250],
       "detail": "> Reduces the amount of ASPD lowered due to [Paralysis] by 2% per level.\r",
       "max_lv": 30,
       "rarity": "Uncommon"
@@ -607,12 +318,7 @@
     {
       "id": 32,
       "name": "Final Resistance",
-      "lv": [
-        50,
-        170,
-        220,
-        270
-      ],
+      "lv": [50, 170, 220, 270],
       "detail": "> If you get knocked out last in the party, you will squeeze through every last bit of your strength to quickly revive for 6 *(+1 per level)* seconds before becoming unable to battle again.  \r\n> **First Aid, Struggle, Revive Droplets Unavailable.*\r",
       "max_lv": 5,
       "rarity": "Legendary (Lv 50) / Super Rare (Lv 170)"
@@ -620,14 +326,7 @@
     {
       "id": 33,
       "name": "Elemental Trigger Slash",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> Converts the element of `Trigger Slash` from fire to that of the weapon equipped.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -635,13 +334,7 @@
     {
       "id": 34,
       "name": "Spiral Air Enhancer",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150, 290],
       "detail": "> Raises the power of `Spiral Air` by 2% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -649,13 +342,7 @@
     {
       "id": 35,
       "name": "Paralysis Shot Extender",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Extends the duration of buff from the skill `Paralysis Shot` by 1 second per level.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -663,14 +350,7 @@
     {
       "id": 36,
       "name": "Magic: Lances Catalyst",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> Shortens the interval between shots of the skill `Magic: Lances` by 0.1 second per level.\r",
       "max_lv": 5,
       "rarity": "Rare"
@@ -678,14 +358,7 @@
     {
       "id": 37,
       "name": "Magic: Blast Catalyst",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220, 290],
       "detail": "> Shortens the time to cast the skill `Magic: Blast` by 0.2 second per level.\r",
       "max_lv": 5,
       "rarity": "Rare"
@@ -693,13 +366,7 @@
     {
       "id": 38,
       "name": "Power Wave Modifier",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Modifies the effect of `Power Wave` so that it raises normal attack power by 0% instead of extending the range.  \r\n> **The increment depends on the skill level. 0.5% increase per skill level (lv1 is 0.5% but rounded down), 0.5% increase per Registlet level (so max 10% with lv10 on both).*\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -707,13 +374,7 @@
     {
       "id": 39,
       "name": "Earthbind Enhancer",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150, 290],
       "detail": "> Raises the power of `Earthbind` by 5% per level if used with knuckles.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -721,13 +382,7 @@
     {
       "id": 40,
       "name": "Spinning Slash Compress",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Reduces the range of `Spinning Slash` and removes the [Knock Back] effect, but raises its power by 5% per level.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -735,13 +390,7 @@
     {
       "id": 41,
       "name": "Critical Charging Slash",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Lowers the power of `Charging Slash` by 100% and guarantees a critical hit. -10% reduction of power per level.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -749,13 +398,7 @@
     {
       "id": 42,
       "name": "Dragon Tail Enhancer",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Raises the power of the second hit of `Dragon Tail` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Uncommon"
@@ -763,13 +406,7 @@
     {
       "id": 43,
       "name": "Mega War Cry of Struggle",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150
-      ],
+      "lv": [70, 90, 110, 130, 150],
       "detail": "> Increases the aggro generated by the skill `War Cry of Struggle` by 300 per level.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -777,14 +414,7 @@
     {
       "id": 44,
       "name": "Static Triple Thrust",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> You will remain in the same spot when using the skill `Triple Thrust`.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -792,14 +422,7 @@
     {
       "id": 45,
       "name": "Magadachi Amulet",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> Raises magic damage reduction by the skill `Magadachi` by 5% per level.\r",
       "max_lv": 6,
       "rarity": "Rare"
@@ -807,14 +430,7 @@
     {
       "id": 46,
       "name": "Meikyo Shisui Preserver",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> The effect from `Meikyo Shisui` remains when using a skill.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -822,10 +438,7 @@
     {
       "id": 47,
       "name": "Steady Stance",
-      "lv": [
-        70,
-        90
-      ],
+      "lv": [70, 90],
       "detail": "> Reduces damage taken while afflicted with [Stop] by 3% per level if you stand still.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -833,12 +446,7 @@
     {
       "id": 48,
       "name": "Shared Destiny",
-      "lv": [
-        70,
-        190,
-        220,
-        270
-      ],
+      "lv": [70, 190, 220, 270],
       "detail": "> Each party member excluding you will raise ATK and MATK by 1%, but 100% of HP will be lost whenever a member gets knocked out.  \r\n> **This HP loss could knock player out. No increase in ATK or MATK boost but -1% HP loss per level when a member gets knocked out.*\r",
       "max_lv": 2,
       "rarity": "Legendary (Lv 70) / Super Rare (Lv 170)"
@@ -846,14 +454,7 @@
     {
       "id": 49,
       "name": "Shell Break Enhancer",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> Raises the chance to inflict [Armor Break] with the skill `Shell Break` by 5% per level.\r",
       "max_lv": 5,
       "rarity": "Rare"
@@ -861,10 +462,7 @@
     {
       "id": 50,
       "name": "Forty Winks",
-      "lv": [
-        90,
-        220
-      ],
+      "lv": [90, 220],
       "detail": "> Shortens [Sleep] duration by 10% per level.\r",
       "max_lv": 5,
       "rarity": "Epic"
@@ -872,10 +470,7 @@
     {
       "id": 51,
       "name": "Tanker's Pet",
-      "lv": [
-        90,
-        230
-      ],
+      "lv": [90, 230],
       "detail": "> Lowers the damage received by pet by 3%, but greatly increases the damage received by its owner\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -883,10 +478,7 @@
     {
       "id": 52,
       "name": "Last Hero",
-      "lv": [
-        90,
-        190
-      ],
+      "lv": [90, 190],
       "detail": "> Restores 11% of your HP and MP per knocked out party member when you are the only one left. Cooldown: 300 seconds. Restoration increases 1% per level.\r",
       "max_lv": 10,
       "rarity": "Legendary (Lv 90) / Super Rare (Lv 190)"
@@ -894,12 +486,7 @@
     {
       "id": 53,
       "name": "Monophobia",
-      "lv": [
-        90,
-        170,
-        220,
-        270
-      ],
+      "lv": [90, 170, 220, 270],
       "detail": "> Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost.  \r\n> **This HP loss won’t knock player out. Healing range: 4m, range increases by 1m per level.*\r",
       "max_lv": 5,
       "rarity": "Epic / Super Rare (Lv 170)"
@@ -907,10 +494,7 @@
     {
       "id": 54,
       "name": "Pyrexia",
-      "lv": [
-        110,
-        230
-      ],
+      "lv": [110, 230],
       "detail": "> 5% chance of having [Freeze] status removed if you do a normal attack while frozen. Chance removal increases 5% per level.\r",
       "max_lv": 20,
       "rarity": "Rare"
@@ -918,11 +502,7 @@
     {
       "id": 55,
       "name": "Impetus",
-      "lv": [
-        110,
-        130,
-        270
-      ],
+      "lv": [110, 130, 270],
       "detail": "> Reduces movement speed decline due to [Slow] by 5% per level.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -930,10 +510,7 @@
     {
       "id": 56,
       "name": "Silent Recharge",
-      "lv": [
-        110,
-        230
-      ],
+      "lv": [110, 230],
       "detail": "> increases amount of MP recovered by 5% per level if `MP Charge` is used while afflicted with [Silence].\r",
       "max_lv": 20,
       "rarity": "Epic"
@@ -941,10 +518,7 @@
     {
       "id": 57,
       "name": "Attacker's Pet",
-      "lv": [
-        110,
-        250
-      ],
+      "lv": [110, 250],
       "detail": "> Raises the damage dealt by pet by 3%, but greatly decreases it’s owner’s.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -952,11 +526,7 @@
     {
       "id": 58,
       "name": "Mana Thrash",
-      "lv": [
-        110,
-        220,
-        230
-      ],
+      "lv": [110, 220, 230],
       "detail": "> Raises normal attack power in exchange for AMPR.  \r\n> **Power increases more with higher AMPR.*\r",
       "max_lv": 1,
       "rarity": "Legendary"
@@ -964,10 +534,7 @@
     {
       "id": 59,
       "name": "Parsimony",
-      "lv": [
-        110,
-        250
-      ],
+      "lv": [110, 250],
       "detail": "> Instead of consuming a triggered auto-item, the item cooldown is doubled. Registlet cooldown: 39 seconds. -1 cooldown per level.\r",
       "max_lv": 10,
       "rarity": "Epic"
@@ -975,10 +542,7 @@
     {
       "id": 60,
       "name": "Emergency Repair",
-      "lv": [
-        130,
-        250
-      ],
+      "lv": [130, 250],
       "detail": "> 5% per level of having [Armor Break] status removed when the damage taken increases because of it.\r",
       "max_lv": 20,
       "rarity": "Rare"
@@ -986,11 +550,7 @@
     {
       "id": 61,
       "name": "Mana Defuser",
-      "lv": [
-        130,
-        150,
-        220
-      ],
+      "lv": [130, 150, 220, 290],
       "detail": "> Immediately recovers 100MP per level if you survive Mana Explosion.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -998,10 +558,7 @@
     {
       "id": 62,
       "name": "Coffe Break",
-      "lv": [
-        130,
-        230
-      ],
+      "lv": [130, 230],
       "detail": "> Restores 10% of your HP when you defeat a monster. Cooldown 29 seconds *(-1 second per level)*\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1009,10 +566,7 @@
     {
       "id": 63,
       "name": "Eagle Eye",
-      "lv": [
-        130,
-        230
-      ],
+      "lv": [130, 230],
       "detail": "> Reduces damage taken from behind *(opposite camera direction)* by 1% per level. The damage will be further reduced when taken from directly behind.\r",
       "max_lv": 10,
       "rarity": "Epic"
@@ -1020,10 +574,7 @@
     {
       "id": 64,
       "name": "Savior",
-      "lv": [
-        130,
-        220
-      ],
+      "lv": [130, 220, 290],
       "detail": "> Grants 10-second [Invincible] if you revive when all of your party members get knocked out.\r",
       "max_lv": 1,
       "rarity": "Legendary"
@@ -1031,13 +582,7 @@
     {
       "id": 65,
       "name": "Sword Tempest Extender",
-      "lv": [
-        150,
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [150, 170, 190, 210, 220],
       "detail": "> Adds 1 hit to the skill `Sword Tempest`.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1045,12 +590,7 @@
     {
       "id": 66,
       "name": "Remedial Rampage",
-      "lv": [
-        150,
-        170,
-        190,
-        210
-      ],
+      "lv": [150, 170, 190, 210],
       "detail": "> Removes the finishing attack of the skill `Rampage` and restores 50 HP per level.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1058,12 +598,7 @@
     {
       "id": 67,
       "name": "Smoke Dust Extender",
-      "lv": [
-        150,
-        170,
-        190,
-        210
-      ],
+      "lv": [150, 170, 190, 210],
       "detail": "> Extends the duration of buff from the skill `Smoke Dust` by 1 second per level.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1071,12 +606,7 @@
     {
       "id": 68,
       "name": "Piercing Heavy Smash",
-      "lv": [
-        150,
-        170,
-        190,
-        210
-      ],
+      "lv": [150, 170, 190, 210],
       "detail": "> Adds a 5% of Physical Pierce to the skill `Heavy Smash` if used with knuckles.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1084,12 +614,7 @@
     {
       "id": 69,
       "name": "Phantom Slash Enhancer",
-      "lv": [
-        150,
-        170,
-        190,
-        210
-      ],
+      "lv": [150, 170, 190, 210, 290],
       "detail": "> Raises the power of `Phantom Slash` by 5% per level.\r",
       "max_lv": 20,
       "rarity": "Rare"
@@ -1097,13 +622,7 @@
     {
       "id": 70,
       "name": "Focus Dive Impact",
-      "lv": [
-        150,
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [150, 170, 190, 210, 220],
       "detail": "> Turns the skill `Dive Impact` into an attack that pierces through a single target. Resistance to [Dazzled] is shortened by 2 seconds per level.\r",
       "max_lv": 5,
       "rarity": "Super Rare"
@@ -1111,10 +630,7 @@
     {
       "id": 71,
       "name": "Pursuit Relief",
-      "lv": [
-        150,
-        250
-      ],
+      "lv": [150, 250],
       "detail": "> Reduces damage taken by 1% per level when you can’t move while afflicted with [Flinch], [Tumble] or [Stun].\r",
       "max_lv": 20,
       "rarity": "Rare"
@@ -1122,10 +638,7 @@
     {
       "id": 72,
       "name": "Burning Spirit",
-      "lv": [
-        150,
-        230
-      ],
+      "lv": [150, 230],
       "detail": "> Restores MP as much as 5% per level, of your AMPR when taking dmg inflicted by [Ignite].\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1133,10 +646,7 @@
     {
       "id": 73,
       "name": "Bloody Warrior",
-      "lv": [
-        150,
-        270
-      ],
+      "lv": [150, 270],
       "detail": "> Raises normal attack power and AMPR by 5% per level while afflicted with [Bleed].\r",
       "max_lv": 20,
       "rarity": "Rare"
@@ -1144,10 +654,7 @@
     {
       "id": 74,
       "name": "Monster Hunter",
-      "lv": [
-        150,
-        250
-      ],
+      "lv": [150, 250],
       "detail": "> Restores 100 MP when you defeat a monster. Cooldown: 29 seconds *(-1 second per level).*\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1155,10 +662,7 @@
     {
       "id": 75,
       "name": "Panic",
-      "lv": [
-        150,
-        230
-      ],
+      "lv": [150, 230],
       "detail": "> Restores 11 MP *(+1MP per level)* every 3 seconds, but all MP will be lost if you get aggro and this Registlet will be suspended for 30 seconds.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1166,10 +670,7 @@
     {
       "id": 76,
       "name": "Transfer",
-      "lv": [
-        150,
-        250
-      ],
+      "lv": [150, 250],
       "detail": "> Lowers Max MP by 1000, but when you are knocked out, the remaining MP will be shared among your party members.  \r\n> **Players whose MP gets restored by this effect cannot enjoy the same effect for 180 seconds. -100 Max MP reduction per level.*\r",
       "max_lv": 10,
       "rarity": "Epic"
@@ -1177,12 +678,7 @@
     {
       "id": 77,
       "name": "Berserk Control",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> `Rampage` state has a 10% chance of not getting removed per level of `Berserk` acquired.\r",
       "max_lv": 1,
       "rarity": "Legendary"
@@ -1190,11 +686,7 @@
     {
       "id": 78,
       "name": "Decoy Shot Compress",
-      "lv": [
-        170,
-        190,
-        210
-      ],
+      "lv": [170, 190, 210],
       "detail": "> Halves the duration of `Decoy Shot` but increases the power by 10% (+10% per level).\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1202,11 +694,7 @@
     {
       "id": 79,
       "name": "Frugal Shield Bash",
-      "lv": [
-        170,
-        230,
-        270
-      ],
+      "lv": [170, 230, 270],
       "detail": "> Restores 10 MP *(+10 MP per level)* when `Shield Bash` inflicts [Stun].\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -1214,12 +702,7 @@
     {
       "id": 80,
       "name": "Extra Recovery",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> adds a HP recovery effect to the skill `Recovery`. The amount of HP restored is *(10×level)%* of the heal value of the caster's `Mini Heal`. The HP recovery effect is applied to both the target and the caster.\r",
       "max_lv": 5,
       "rarity": "Super Rare"
@@ -1227,12 +710,7 @@
     {
       "id": 81,
       "name": "Frugal Heal",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> Reduces the MP Cost of the skill `Heal` by 100.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1240,12 +718,7 @@
     {
       "id": 82,
       "name": "Extreme Whack",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220, 290],
       "detail": "> Increases the activation rate of `Whack` by 1% *(+1% per level).*\r",
       "max_lv": 5,
       "rarity": "Super Rare"
@@ -1253,12 +726,7 @@
     {
       "id": 83,
       "name": "Extreme Concentrate",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220, 290],
       "detail": "> Increases the activation rate of `Concentrate` by 1% *(+1% per level).*\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1266,12 +734,7 @@
     {
       "id": 84,
       "name": "Secret Chase ATK Boost",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> Increases the activation rate of additional attack of `Secret Chase Attack` by 1% per level of the skill acquired.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1279,10 +742,7 @@
     {
       "id": 85,
       "name": "Power Resonance",
-      "lv": [
-        170,
-        230
-      ],
+      "lv": [170, 230],
       "detail": "> The Skill `Resonance` will always choose the buff that boosts ATK/MATK, but the ATK/MATK boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": "Rare"
@@ -1290,10 +750,7 @@
     {
       "id": 86,
       "name": "Speed Resonance",
-      "lv": [
-        190,
-        250
-      ],
+      "lv": [190, 250],
       "detail": "> The Skill `Resonance` will always choose the buff that boosts ASPD/CSPD, but the ASPD/CSPD boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": "Rare"
@@ -1301,10 +758,7 @@
     {
       "id": 87,
       "name": "Focus Resonance",
-      "lv": [
-        210,
-        270
-      ],
+      "lv": [210, 270],
       "detail": "> The skill `Resonance` will always choose the buff that boosts Accuracy and Critical Rate, but the Accuracy and Critical Rate boost is reduced by *(95-5×level)%*.\r\n> \r\n> *Note: If multiple Resonance Registlets are equipped, the first Resonance Registlet equipped will take effect*\r",
       "max_lv": 9,
       "rarity": ""
@@ -1312,11 +766,7 @@
     {
       "id": 88,
       "name": "Bloody Bite Enhancer",
-      "lv": [
-        170,
-        190,
-        210
-      ],
+      "lv": [170, 190, 210, 290],
       "detail": "> Raises the power of `Bloody Bite` by 10% *(+10% per level).*\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -1324,12 +774,7 @@
     {
       "id": 89,
       "name": "Dominant War Cry",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> The activation of `War Cry` will no longer be interrupted by [Fear].\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1337,10 +782,7 @@
     {
       "id": 90,
       "name": "Full Power Qi Charge",
-      "lv": [
-        170,
-        230
-      ],
+      "lv": [170, 230],
       "detail": "> When `Qi Charge` gives no effect, qi will increase by 10% *(+10% per level)* if the skill is activated using 2000 MP.\r",
       "max_lv": 10,
       "rarity": "Uncommon"
@@ -1348,11 +790,7 @@
     {
       "id": 91,
       "name": "Single Meteor Strike",
-      "lv": [
-        170,
-        220,
-        230
-      ],
+      "lv": [170, 220, 230],
       "detail": "> Reduces the number of meteorites dropped from `Meteor Strike` to 1, but the drop point will no longer be random. It will no longer inflict status ailments either.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1360,10 +798,7 @@
     {
       "id": 92,
       "name": "Start Dash",
-      "lv": [
-        170,
-        220
-      ],
+      "lv": [170, 220],
       "detail": "> Normal attack has 0 second cooldown for 6 seconds *(+1 second per level)* when getting aggro from the target monster for the first time.\r",
       "max_lv": 5,
       "rarity": "Super Rare"
@@ -1371,10 +806,7 @@
     {
       "id": 93,
       "name": "Secret Combo",
-      "lv": [
-        170,
-        230
-      ],
+      "lv": [170, 230],
       "detail": "> Reduces aggro by 1% *(+1% per level)* per 1 combo. Better effect with longer combo.\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1382,10 +814,7 @@
     {
       "id": 94,
       "name": "Zero Stance",
-      "lv": [
-        170,
-        250
-      ],
+      "lv": [170, 250],
       "detail": "> Damage dealt with skill activated without using a combo is multiplied by 1.01 *(+0.01 per level)*.  \r\n> **Does not apply to some skills such as charge skills.*\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1393,10 +822,7 @@
     {
       "id": 95,
       "name": "Express Assault Attack",
-      "lv": [
-        190,
-        250
-      ],
+      "lv": [190, 250],
       "detail": "> Removes [Knock Back] and [Slow] from `Assault Attack` and increases its power by 10% *(+10% per level).*\r",
       "max_lv": 10,
       "rarity": "Rare"
@@ -1404,10 +830,7 @@
     {
       "id": 96,
       "name": "Rage Sword Enhancer",
-      "lv": [
-        190,
-        250
-      ],
+      "lv": [190, 250],
       "detail": "> Raises the power of `Rage Sword` by 10% *(+10% per level)*. Aggro doubles if the target is hostile towards you.\r",
       "max_lv": 10,
       "rarity": "Super Rare"
@@ -1415,11 +838,7 @@
     {
       "id": 97,
       "name": "Comrade Familia",
-      "lv": [
-        190,
-        220,
-        250
-      ],
+      "lv": [190, 220, 250],
       "detail": "> The chance of familiar summoned with `Familia` fleeing is reduced by 1%. Movement becomes 1 second faster for `Advanced Familia`.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1427,10 +846,7 @@
     {
       "id": 98,
       "name": "Tricky Shadow Walk",
-      "lv": [
-        190,
-        220
-      ],
+      "lv": [190, 220, 290],
       "detail": "> Additional attack of `Shadow Walk` will no longer cause proration.\r",
       "max_lv": 1,
       "rarity": "Epic"
@@ -1438,10 +854,7 @@
     {
       "id": 99,
       "name": "Mega Royal Heal",
-      "lv": [
-        190,
-        230
-      ],
+      "lv": [190, 230],
       "detail": "> The range of `Royal Heal` effect is increased by 1m *(+1m per level)*, but the amount of HP restores is halved.\r",
       "max_lv": 8,
       "rarity": "Super Rare"
@@ -1449,10 +862,7 @@
     {
       "id": 100,
       "name": "Short Performance",
-      "lv": [
-        190,
-        220
-      ],
+      "lv": [190, 220],
       "detail": "> Shortens the duration of dance skill effect by 5 sec. **Does not apply to `Spirited Dance`.*\r",
       "max_lv": 1,
       "rarity": "Legendary"
@@ -1460,14 +870,7 @@
     {
       "id": 101,
       "name": "Arrow Rain Enhancer",
-      "lv": [
-        70,
-        90,
-        110,
-        130,
-        150,
-        220
-      ],
+      "lv": [70, 90, 110, 130, 150, 220],
       "detail": "> Increase the number of hits of `Arrow Rain` by 1 per level.\r",
       "max_lv": 2,
       "rarity": "Super Rare"
@@ -1475,12 +878,7 @@
     {
       "id": 102,
       "name": "Ether Flare Extender",
-      "lv": [
-        170,
-        190,
-        210,
-        220
-      ],
+      "lv": [170, 190, 210, 220],
       "detail": "> Doubles the duration of the `Ether Flare` buff, but halves the buff's AMPR gain.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1488,11 +886,7 @@
     {
       "id": 103,
       "name": "Mana Crystal Catalyst",
-      "lv": [
-        210,
-        220,
-        270
-      ],
+      "lv": [210, 220, 270],
       "detail": "> Reduces the casting time of `Mana Crystal` by 10% per level, but the amount of MP recovered gets reduced by 100.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1500,10 +894,7 @@
     {
       "id": 104,
       "name": "Assassin Stab Enhancer",
-      "lv": [
-        210,
-        230
-      ],
+      "lv": [210, 230],
       "detail": "> Raises the base multiplier of `Assassin Stab` by 1% per level. Furthermore, if the `Assassin Stab` performed is a `Back Stab`, the accuracy of the attack increases by 10% per level.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1511,10 +902,7 @@
     {
       "id": 105,
       "name": "Holy Light Retribution",
-      "lv": [
-        210,
-        250
-      ],
+      "lv": [210, 250],
       "detail": "> There is a 1% chance that a light element `Magic: Finale` will activate when `Holy Light` hits the target. The skill level of the `Magic: Finale` is equal to the regislet's level.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1522,11 +910,7 @@
     {
       "id": 106,
       "name": "Focus Demon Claw",
-      "lv": [
-        210,
-        220,
-        250
-      ],
+      "lv": [210, 220, 250],
       "detail": "> Reduces the base multiplier of `Demon Claw` by 100%, but the skill becomes a single target skill instead of an AOE.\r\n> \r\n> *Note: The base multiplier of `Demon Claw` is (100 + 10×skill level). With this Registlet, that base multiplier becomes (10×skill level).*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1534,10 +918,7 @@
     {
       "id": 107,
       "name": "Silent P. Defense",
-      "lv": [
-        210,
-        270
-      ],
+      "lv": [210, 270],
       "detail": "> Reduces the aggro generated when `P. Defense` is successful by 10% per level.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1545,10 +926,7 @@
     {
       "id": 108,
       "name": "Binding Strike Modifier",
-      "lv": [
-        210,
-        220
-      ],
+      "lv": [210, 220],
       "detail": "> Modifies `Binding Strike` so that it inflicts [Stun] to the target only and the [Stop] effect is removed. In this case, the [Stun] chance is (10×skill level)%.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1556,10 +934,7 @@
     {
       "id": 109,
       "name": "Heal Bank",
-      "lv": [
-        210,
-        230
-      ],
+      "lv": [210, 230],
       "detail": "> The amount of HP recovered by `Mini Heal` and `Heal` is halved.  \r\n> This regislet gives the user the ability to accumulate Heal Stacks every 3 seconds.  \r\n> The max Heal Stacks that can be accumulated is equal to the Registlet's level.  \r\n> When using `Mini Heal` or `Heal` on an ally, Heal Stacks are consumed instead of MP and the skill's cast time is removed.  \r\n> The extra MP cost due to `Asura Aura` is still paid even when using the Heal Stacks.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1567,10 +942,7 @@
     {
       "id": 110,
       "name": "Chancy Trap",
-      "lv": [
-        210,
-        220
-      ],
+      "lv": [210, 220],
       "detail": "> Enables trap skills from the `Hunter` skill tree to be set at the target's feet, but if the trap activates immediately, you will also be affected.\r\n> \r\n> Self Ailment Duration due to Traps:  \r\n> Sleep Trap: Sleep @15 sec  \r\n> Bear Trap: Stop @10 sec  \r\n> Land Mine: Ignite @10 sec  \r\n> Dark Trap: Lethargy @10 sec\r",
       "max_lv": 1,
       "rarity": ""
@@ -1578,11 +950,7 @@
     {
       "id": 111,
       "name": "Guitarist",
-      "lv": [
-        210,
-        220,
-        250
-      ],
+      "lv": [210, 220, 250],
       "detail": "> Allows smooth song resumption with `Ad-Lib`.  \r\n> A successful parry with `Ad-Lib` grants (Registlet's level) stack(s) of `Beat Blast`.\r",
       "max_lv": 6,
       "rarity": ""
@@ -1590,10 +958,7 @@
     {
       "id": 112,
       "name": "Fighter's Magic: Impact",
-      "lv": [
-        220,
-        250
-      ],
+      "lv": [220, 250],
       "detail": "> Changes the proration dealt by `Magic: Impact` to physical proration.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1601,9 +966,7 @@
     {
       "id": 113,
       "name": "Maximizer Converter",
-      "lv": [
-        220
-      ],
+      "lv": [220, 290],
       "detail": "> Switches `Maximizer` to activate `MP Charge` instead when used alone (i.e., not part of a combo) and the condition for instant activation is not met.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1611,10 +974,7 @@
     {
       "id": 114,
       "name": "Perfect Triple Thrust",
-      "lv": [
-        220,
-        270
-      ],
+      "lv": [220, 270],
       "detail": "> Restores 10×level MP if `Triple Thrust` is successfully activated without taking any damage when used alone.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1622,9 +982,7 @@
     {
       "id": 115,
       "name": "Evasive Floating Kick",
-      "lv": [
-        220
-      ],
+      "lv": [220, 290],
       "detail": "> Gain [Invincible] for 1 second if `Floating Kick` is activated while moving.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1632,10 +990,7 @@
     {
       "id": 116,
       "name": "Mega Demon Wind Shuriken",
-      "lv": [
-        220,
-        270
-      ],
+      "lv": [220, 270],
       "detail": "> MP Cost of `Demon Wind Shuriken` increases by 200-100×level, but, in exchange, the number of times the shuriken can hit without reduced damage is increased by 1.\r",
       "max_lv": 2,
       "rarity": ""
@@ -1643,10 +998,7 @@
     {
       "id": 117,
       "name": "Dragon Fire Release",
-      "lv": [
-        220,
-        250
-      ],
+      "lv": [220, 250],
       "detail": "> The time to cast `Fire Release` is increased by 1 second, but the skill gains 2.5×level Magic Pierce. This increase in Magic Pierce doubles if `Blazing Explosion` is triggered.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1654,9 +1006,7 @@
     {
       "id": 118,
       "name": "Protection Aegis",
-      "lv": [
-        220
-      ],
+      "lv": [220, 290],
       "detail": "> When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.  \r\n> Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1664,10 +1014,7 @@
     {
       "id": 119,
       "name": "Frugal Breathwork",
-      "lv": [
-        220,
-        270
-      ],
+      "lv": [220, 270],
       "detail": "> Reduces the MP Cost of `Breathwork` by 100.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1675,9 +1022,7 @@
     {
       "id": 120,
       "name": "Fire Talent",
-      "lv": [
-        220
-      ],
+      "lv": [220, 290],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Fire element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1685,9 +1030,7 @@
     {
       "id": 121,
       "name": "Water Talent",
-      "lv": [
-        220
-      ],
+      "lv": [220, 290],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Water element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1695,9 +1038,7 @@
     {
       "id": 122,
       "name": "Wind Talent",
-      "lv": [
-        220
-      ],
+      "lv": [220],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Wind element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1705,9 +1046,7 @@
     {
       "id": 123,
       "name": "Earth Talent",
-      "lv": [
-        220
-      ],
+      "lv": [220],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Earth element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1715,9 +1054,7 @@
     {
       "id": 124,
       "name": "Light Talent",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Light element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1725,9 +1062,7 @@
     {
       "id": 125,
       "name": "Dark Talent",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Dark element effect.\r\n> \r\n> *Note: This does not provide awaken element. It just changes the effect of the skill!*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1735,10 +1070,7 @@
     {
       "id": 126,
       "name": "Emergency Care",
-      "lv": [
-        220,
-        270
-      ],
+      "lv": [220, 270],
       "detail": "> Reduces the MP Aggro triggered by \"First Aid\" by 1 per level.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1746,9 +1078,7 @@
     {
       "id": 127,
       "name": "Direct Sonic Thrust",
-      "lv": [
-        230
-      ],
+      "lv": [230, 290],
       "detail": "> The skill `Sonic Thrust` loses its swift effect but gains an effect that ignores evasion in return.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1756,9 +1086,7 @@
     {
       "id": 128,
       "name": "Sprint Sheathe Remover",
-      "lv": [
-        230
-      ],
+      "lv": [230, 290],
       "detail": "> Sheathing while moving will no longer occur.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1766,9 +1094,7 @@
     {
       "id": 129,
       "name": "Unsheather Wind Release",
-      "lv": [
-        230
-      ],
+      "lv": [230, 290],
       "detail": "> Adds 5% magic pierce per level to the skill `Wind Release` and when the skill changes, an unsheathe attack attribute is added.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1776,9 +1102,7 @@
     {
       "id": 130,
       "name": "Extreme Chronos Shift",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> `Chronos Shift` can be activated even if there is not enough MP by consuming HP.  \r\n> (60-10×level)% HP required per 100MP that you're short of.  \r\n> This HP consumption can get you knocked out.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1786,9 +1110,7 @@
     {
       "id": 131,
       "name": "Meteor Magic: Crash",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> The size of the meteorites from `Magic: Crash` and their chance to inflict ailments are greatly reduced, but their time to impact is shortened by (0.1 × level - 0.1) seconds, and [Guard] no longer works against them.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1796,9 +1118,7 @@
     {
       "id": 132,
       "name": "Moonlight Crescent Saber",
-      "lv": [
-        230
-      ],
+      "lv": [230, 290],
       "detail": "> While `Crescent Saber` is active, all aggro generated will be reduced by 15% per level. This effect does not activate if you are being targeted.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1806,9 +1126,7 @@
     {
       "id": 133,
       "name": "Target Declaration",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> When you are drawing the enemy's attention (aggro), you will declare it through Party Chat. If it is a Guild RAID, you will declare it through Say Chat.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1816,9 +1134,7 @@
     {
       "id": 134,
       "name": "Check Out Notice",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> When you get knocked out, you will declare it through Party Chat. If it is a Guild RAID, you will declare it through Say Chat.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1826,9 +1142,7 @@
     {
       "id": 135,
       "name": "Instructor",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> Sets your own EXP Gain to 0% to increase the EXP Gain of the party member with the lowest level by 1% per level.  \r\n> Less effective if there are multiple recipients.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1836,9 +1150,7 @@
     {
       "id": 136,
       "name": "Healing Hands",
-      "lv": [
-        230
-      ],
+      "lv": [230],
       "detail": "> Alleviates the reduced recovery of Heal-related Registlets by 10% per level.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1846,9 +1158,7 @@
     {
       "id": 137,
       "name": "Iron Fist",
-      "lv": [
-        230
-      ],
+      "lv": [230, 290],
       "detail": "> Guard Break increases by 1% per level when using barehanded or knuckles (main only). The amount increased will be tripled if the sub-weapon slot is empty.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1856,9 +1166,7 @@
     {
       "id": 138,
       "name": "Magic: Storm Extender",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Reduces the multiplier of `Magic: Storm` by 50%, but increases the storm's duration by (level) seconds.\r\n> \r\n> *Note: The multiplier is not halved, it is reduced. If the original multiplier is 200%, it becomes 150% with this Registlet.*\r",
       "max_lv": 5,
       "rarity": ""
@@ -1866,9 +1174,7 @@
     {
       "id": 139,
       "name": "Parrier Storm Blaze",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> A Guard check is added to the skill `Storm Blaze`. A successful Guard with the skill will double the amount of MP recovered.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1876,9 +1182,7 @@
     {
       "id": 140,
       "name": "Sneak Attack Timer",
-      "lv": [
-        250
-      ],
+      "lv": [250, 290],
       "detail": "> The skill `Sneak Attack` changes into a time-based buff instead of a fixed amount of uses.  \r\n> The buff duration is (`Sneak Attack`'s skill level) seconds.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1886,9 +1190,7 @@
     {
       "id": 141,
       "name": "Aura Blade Force",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> When using `Aura Blade` while the targeted enemy is out of the skill's AOE range, the skill will releases a single attack shock wave towards the targeted enemy.  \r\n> The shock wave deals (level×10)% of the skill's original damage.\r",
       "max_lv": 8,
       "rarity": ""
@@ -1896,9 +1198,7 @@
     {
       "id": 142,
       "name": "Distant Buster Lance",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Increases the multiplier of `Buster Lance` by 10% per level.  \r\n> The range and distance at which the multiplier of `Buster Lance` starts to decrease is increased, making it always a long-range attack.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1906,9 +1206,7 @@
     {
       "id": 143,
       "name": "Invincible Dauntless",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> `Dauntless` accumulates 1 second faster, but the count will decrease by (12 - level×3) when taking damage.  \r\n> The count will not decrease if the damage is blocked with Guard or certain Mononofu skills.  \r\n> The count will also not decrease when taking damage if you have 100 `Dauntless` stacks.\r",
       "max_lv": 3,
       "rarity": ""
@@ -1916,9 +1214,7 @@
     {
       "id": 144,
       "name": "Evasion Set",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Evasion becomes usable even with equipment that doesn't allow it.  \r\n> This Registlet gives 2 manual evasions or 1 auto evasion (10 sec cooldown).  \r\n> This effect will not apply if you are equipped with an equipment that already enables Evasion.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1926,9 +1222,7 @@
     {
       "id": 145,
       "name": "Damage Check",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Displays an additional warning message when stepping on a warning area if the damage from the enemy attack exceeds 50% of your current HP.\r",
       "max_lv": 1,
       "rarity": ""
@@ -1936,9 +1230,7 @@
     {
       "id": 146,
       "name": "Role Model",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Greatly suppresses your own damage output to increase your party's EXP Gain by (level)%.  \r\n> While equipped with this Registlet, your damage is capped to 1% of the enemy's HP.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1946,9 +1238,7 @@
     {
       "id": 147,
       "name": "Knight's Intuition",
-      "lv": [
-        250
-      ],
+      "lv": [250],
       "detail": "> Anticipate increases by (level)% if a one-handed sword is equipped.  \r\n> Equipping a shield will triple the amount increased.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1956,9 +1246,7 @@
     {
       "id": 148,
       "name": "Berserk Rush",
-      "lv": [
-        270
-      ],
+      "lv": [270, 290],
       "detail": "> Reduces the negative effect of `Berserk` by (1 × Regislet Level)% if you take damage from a monster while the skill is active.\r",
       "max_lv": 5,
       "rarity": ""
@@ -1966,9 +1254,7 @@
     {
       "id": 149,
       "name": "Ironhearted Chronos Drive",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> Changes the additional attack effect of `Chronos Drive` from magic attack (based on INT) to physical attack (based on STR).\r\n> \r\n> *Note: Scaling remains the same. Proration usage of additional hits changes to physical proration.*\r",
       "max_lv": 1,
       "rarity": ""
@@ -1976,19 +1262,15 @@
     {
       "id": 150,
       "name": "Water Release: Aqua Mirror",
-      "lv": [
-        270
-      ],
-      "detail": "> Changes `Water Release` from a deployable skill to a buff skill.\r",
+      "lv": [270],
+      "detail": "> Changes `Water Release` from a deployable skill to a buff skill.\r\n> \r\n> *Basically water zone & `Vortex` zone will be moving with the caster (like `Magic: Wall` with `Spell Calibration: follow`)*\r",
       "max_lv": 1,
       "rarity": ""
     },
     {
       "id": 151,
       "name": "Violent Lunar Misfortune",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> While `Storm Reaper`'s buff is active the skill `Lunar Misfortune` becomes a close-range attack regardless of distance.  \r\n> (15 - Regislet Level) seconds cooldown after activation.\r",
       "max_lv": 10,
       "rarity": ""
@@ -1996,9 +1278,7 @@
     {
       "id": 152,
       "name": "Purifying Twin Buster Blade",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> The power of `Twin Buster Blade` now increases based on the number of debuffs (max 1 types × Registlet's level) on the target.\r",
       "max_lv": 3,
       "rarity": ""
@@ -2006,9 +1286,7 @@
     {
       "id": 153,
       "name": "Distinct Parabola Cannon",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> The skill `Parabola Cannon` now only hits monster currently in combat and guarantees a critical hit.\r",
       "max_lv": 1,
       "rarity": ""
@@ -2016,19 +1294,15 @@
     {
       "id": 154,
       "name": "Lunar Slash Absorber",
-      "lv": [
-        270
-      ],
-      "detail": "> When gaining a new stack, each of current `Lunar Slash` stacks is converted into (?) MP.\r",
+      "lv": [270],
+      "detail": "> When gaining a new stack, each of current `Lunar Slash` stacks is converted into Registlet's level×`Lunar Slash`'s stacks  MP.\r",
       "max_lv": 10,
       "rarity": ""
     },
     {
       "id": 155,
       "name": "Exclusive Bodyguard",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> Reduces the Physical/Magic/Fractional Damage received by the mercenary or partner summoned as a Defender by (3 × Registlet's level)%.\r",
       "max_lv": 10,
       "rarity": ""
@@ -2036,9 +1310,7 @@
     {
       "id": 156,
       "name": "Red Zone Shield",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> Reduces the damage from monster attacks shown with a red warning by 1 (+1 per Registlet's level)%.\r\n> \r\n> However, damage taken from single-target attacks increases by 10% (disadvantage).\r\n> \r\n> *Note: This damage reduction applies multiplicatively with other damage reductions such as Refinement, Resistance*\r",
       "max_lv": 10,
       "rarity": ""
@@ -2046,11 +1318,57 @@
     {
       "id": 157,
       "name": "Blue Zone Shield",
-      "lv": [
-        270
-      ],
+      "lv": [270],
       "detail": "> Reduces the damage from monster attacks shown with a blue warning by 1 (+1 per Registlet's level)%.\r\n> \r\n> However, damage taken from single-target attacks increases by 10% (disadvantage).\r\n> \r\n> *Note: This damage reduction applies multiplicatively with other damage reductions such as Refinement, Resistance*\r",
       "max_lv": 10,
+      "rarity": ""
+    },
+    {
+      "id": 158,
+      "name": "Thunder Release Modifier",
+      "lv": [290],
+      "detail": "> Reduces the fixed damage of `Thunder Release` by 100 (-10 per Registlet's level), but it will now inflict [Flinch].\r\n> \r\n> *It's constant penalty and at level 10 = 0 penalty*\r",
+      "max_lv": 10,
+      "rarity": ""
+    },
+    {
+      "id": 159,
+      "name": "Magic Vanquisher",
+      "lv": [290],
+      "detail": "> Changes the skill `Vanquisher` from a physical attack to magic attack.\r\n> \r\n> *Let's wait someone test it for the magic mechanics*\r",
+      "max_lv": 1,
+      "rarity": ""
+    },
+    {
+      "id": 160,
+      "name": "Skull Shaker Suppressor",
+      "lv": [290],
+      "detail": "> Reduces the power of the skill `Skull Shaker`, but it will no longer inflict [Stun].\r\n> \r\n> *There is no difference in damage calculation of `Skull Shaker`. But the max stack of `Skull Shaker` is now maxed at Regitlet's Level.*\r",
+      "max_lv": 5,
+      "rarity": ""
+    },
+    {
+      "id": 161,
+      "name": "Stonebreaker's Privilege",
+      "lv": [290],
+      "detail": "> Becomes invincible for 0.1×level(?) second after [Petrified] is removed.\r",
+      "max_lv": 10,
+      "rarity": ""
+    },
+    {
+      "id": 162,
+      "name": "Fast Eater",
+      "lv": [290],
+      "detail": "> Reduces item cooldown by 1×level(?) second after [Item Disabled] is removed.\r\n> \r\n> *[Item Disabled] is ailment that enemy inflicted to player, like boss Rondine's shark*\r",
+      "max_lv": 5,
+      "rarity": ""
+    },
+    {
+      "id": 163,
+      "name": "Anti-Slip",
+      "lv": [290],
+      "detail": "> Shortens [Knock Back] distance by 1×level(?) meter.\r",
+      "max_lv": 3,
       "rarity": ""
     }
   ]

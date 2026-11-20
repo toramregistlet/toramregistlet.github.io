@@ -172,6 +172,11 @@ a#search-result {
     border-left: 4px solid #3D444D;
 }
 
+.note blockquote.warning,
+.regis-container blockquote.warning {
+    border-left: 4px solid yellow;
+}
+
 .regis-container code {
     padding: 0.1rem 0.2rem;
     background-color: #1E242A;

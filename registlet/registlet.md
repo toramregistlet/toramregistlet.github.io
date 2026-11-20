@@ -24,70 +24,70 @@ See/search "Heal Bank" and "Chancy Trap" as an example.
 <hr />
 
 ## Physical Attack Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > ATK +1 per level.
 
 Max Level: 30  
 Rarity: Common
 
 ## Magic Attack Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > MATK +1 per level.
 
 Max Level: 30  
 Rarity: Common
 
 ## Max HP Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > MaxHP +10 per level.
 
 Max Level: 100  
 Rarity: Common
 
 ## Max MP Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > MaxMP +1 per level.
 
 Max Level: 100  
 Rarity: Common
 
 ## Physical Defense Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > DEF +1 per level.
 
 Max Level: 50  
 Rarity: Common
 
 ## Magic Defense Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > MDEF +1 per level.
 
 Max Level: 50  
 Rarity: Common
 
 ## Accuracy Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > Accuracy +1 per level.
 
 Max Level: 10  
 Rarity: Rare
 
 ## Dodge Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > Dodge +1 per level.
 
 Max Level: 10  
 Rarity: Rare
 
 ## Attack Speed Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > ASPD +1 per level.
 
 Max Level: 100  
 Rarity: Common
 
 ## Magic Speed Boost
-(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270)
+(Lv: 10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 220, 230, 250, 270, 290)
 > CSPD  +1 per level.
 
 Max Level: 100  
@@ -256,7 +256,7 @@ Max Level: 1
 Rarity: Epic
 
 ## Spiral Air Enhancer
-(Lv: 70, 90, 110, 130, 150)
+(Lv: 70, 90, 110, 130, 150, 290)
 > Raises the power of `Spiral Air` by 2% per level.
 
 Max Level: 20  
@@ -277,7 +277,7 @@ Max Level: 5
 Rarity: Rare
 
 ## Magic: Blast Catalyst
-(Lv: 70, 90, 110, 130, 150, 220)
+(Lv: 70, 90, 110, 130, 150, 220, 290)
 > Shortens the time to cast the skill `Magic: Blast` by 0.2 second per level.
 
 Max Level: 5  
@@ -292,7 +292,7 @@ Max Level: 10
 Rarity: Uncommon
 
 ## Earthbind Enhancer
-(Lv: 70, 90, 110, 130, 150)
+(Lv: 70, 90, 110, 130, 150, 290)
 > Raises the power of `Earthbind` by 5% per level if used with knuckles.
 
 Max Level: 10  
@@ -449,7 +449,7 @@ Max Level: 20
 Rarity: Rare
 
 ## Mana Defuser
-(Lv: 130, 150, 220)
+(Lv: 130, 150, 220, 290)
 > Immediately recovers 100MP per level if you survive Mana Explosion.
 
 Max Level: 1  
@@ -470,7 +470,7 @@ Max Level: 10
 Rarity: Epic
 
 ## Savior
-(Lv: 130, 220)
+(Lv: 130, 220, 290)
 > Grants 10-second [Invincible] if you revive when all of your party members get knocked out.
 
 Max Level: 1  
@@ -505,7 +505,7 @@ Max Level: 10
 Rarity: Rare
 
 ## Phantom Slash Enhancer
-(Lv: 150, 170, 190, 210)
+(Lv: 150, 170, 190, 210, 290)
 > Raises the power of `Phantom Slash` by 5% per level.
 
 Max Level: 20  
@@ -597,14 +597,14 @@ Max Level: 1
 Rarity: Epic
 
 ## Extreme Whack
-(Lv: 170, 190, 210, 220)
+(Lv: 170, 190, 210, 220, 290)
 > Increases the activation rate of `Whack` by 1% *(+1% per level).*
 
 Max Level: 5  
 Rarity: Super Rare
 
 ## Extreme Concentrate
-(Lv: 170, 190, 210, 220)
+(Lv: 170, 190, 210, 220, 290)
 > Increases the activation rate of `Concentrate` by 1% *(+1% per level).*
 
 Max Level: 10  
@@ -645,7 +645,7 @@ Max Level: 9
 Rarity: 
 
 ## Bloody Bite Enhancer
-(Lv: 170, 190, 210)
+(Lv: 170, 190, 210, 290)
 > Raises the power of `Bloody Bite` by 10% *(+10% per level).*
 
 Max Level: 10  
@@ -716,7 +716,7 @@ Max Level: 1
 Rarity: Epic
 
 ## Tricky Shadow Walk
-(Lv: 190, 220)
+(Lv: 190, 220, 290)
 > Additional attack of `Shadow Walk` will no longer cause proration.
 
 Max Level: 1  
@@ -834,7 +834,7 @@ Max Level: 1
 Rarity: 
 
 ## Maximizer Converter
-(Lv: 220)
+(Lv: 220, 290)
 > Switches `Maximizer` to activate `MP Charge` instead when used alone (i.e., not part of a combo) and the condition for instant activation is not met.
 
 Max Level: 1  
@@ -848,7 +848,7 @@ Max Level: 10
 Rarity: 
 
 ## Evasive Floating Kick
-(Lv: 220)
+(Lv: 220, 290)
 > Gain [Invincible] for 1 second if `Floating Kick` is activated while moving.
 
 Max Level: 1  
@@ -869,7 +869,7 @@ Max Level: 10
 Rarity: 
 
 ## Protection Aegis
-(Lv: 220)
+(Lv: 220, 290)
 > When `Protection` is activated, the `Aegis` you've acquired will also be activated at the same time.  
 > Likewise, when `Aegis` is activated, the `Protection` you've acquired will also be activated at the same time.
 
@@ -884,7 +884,7 @@ Max Level: 1
 Rarity: 
 
 ## Fire Talent
-(Lv: 220)
+(Lv: 220, 290)
 > If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Fire element effect.
 > 
 > *Note: This does not provide awaken element. It just changes the effect of the skill!*
@@ -893,7 +893,7 @@ Max Level: 1
 Rarity: 
 
 ## Water Talent
-(Lv: 220)
+(Lv: 220, 290)
 > If the effect of a skill changes based on element, equipping this Registlet forces that skill to use the Water element effect.
 > 
 > *Note: This does not provide awaken element. It just changes the effect of the skill!*
@@ -945,21 +945,21 @@ Max Level: 10
 Rarity: 
 
 ## Direct Sonic Thrust
-(Lv: 230)
+(Lv: 230, 290)
 > The skill `Sonic Thrust` loses its swift effect but gains an effect that ignores evasion in return.
 
 Max Level: 1  
 Rarity: 
 
 ## Sprint Sheathe Remover
-(Lv: 230)
+(Lv: 230, 290)
 > Sheathing while moving will no longer occur.
 
 Max Level: 1  
 Rarity: 
 
 ## Unsheather Wind Release
-(Lv: 230)
+(Lv: 230, 290)
 > Adds 5% magic pierce per level to the skill `Wind Release` and when the skill changes, an unsheathe attack attribute is added.
 
 Max Level: 10  
@@ -982,7 +982,7 @@ Max Level: 5
 Rarity: 
 
 ## Moonlight Crescent Saber
-(Lv: 230)
+(Lv: 230, 290)
 > While `Crescent Saber` is active, all aggro generated will be reduced by 15% per level. This effect does not activate if you are being targeted.
 
 Max Level: 5  
@@ -1018,7 +1018,7 @@ Max Level: 10
 Rarity: 
 
 ## Iron Fist
-(Lv: 230)
+(Lv: 230, 290)
 > Guard Break increases by 1% per level when using barehanded or knuckles (main only). The amount increased will be tripled if the sub-weapon slot is empty.
 
 Max Level: 5  
@@ -1041,7 +1041,7 @@ Max Level: 1
 Rarity: 
 
 ## Sneak Attack Timer
-(Lv: 250)
+(Lv: 250, 290)
 > The skill `Sneak Attack` changes into a time-based buff instead of a fixed amount of uses.  
 > The buff duration is (`Sneak Attack`'s skill level) seconds.
 
@@ -1106,7 +1106,7 @@ Max Level: 5
 Rarity: 
 
 ## Berserk Rush
-(Lv: 270)
+(Lv: 270, 290)
 > Reduces the negative effect of `Berserk` by (1 × Regislet Level)% if you take damage from a monster while the skill is active.
 
 Max Level: 5  
@@ -1124,6 +1124,8 @@ Rarity:
 ## Water Release: Aqua Mirror
 (Lv: 270)
 > Changes `Water Release` from a deployable skill to a buff skill.
+> 
+> *Basically water zone & `Vortex` zone will be moving with the caster (like `Magic: Wall` with `Spell Calibration: follow`)*
 
 Max Level: 1  
 Rarity: 
@@ -1152,7 +1154,7 @@ Rarity:
 
 ## Lunar Slash Absorber
 (Lv: 270)
-> When gaining a new stack, each of current `Lunar Slash` stacks is converted into (?) MP.
+> When gaining a new stack, each of current `Lunar Slash` stacks is converted into Registlet's level×`Lunar Slash`'s stacks  MP.
 
 Max Level: 10  
 Rarity: 
@@ -1184,4 +1186,54 @@ Rarity:
 > *Note: This damage reduction applies multiplicatively with other damage reductions such as Refinement, Resistance*
 
 Max Level: 10  
+Rarity: 
+
+## Thunder Release Modifier
+(Lv: 290)
+> Reduces the fixed damage of `Thunder Release` by 100 (-10 per Registlet's level), but it will now inflict [Flinch].
+> 
+> *It's constant penalty and at level 10 = 0 penalty*
+
+Max Level: 10  
+Rarity: 
+
+## Magic Vanquisher
+(Lv: 290)
+> Changes the skill `Vanquisher` from a physical attack to magic attack.
+> 
+> *Let's wait someone test it for the magic mechanics*
+
+Max Level: 1  
+Rarity: 
+
+## Skull Shaker Suppressor
+(Lv: 290)
+> Reduces the power of the skill `Skull Shaker`, but it will no longer inflict [Stun].
+> 
+> *There is no difference in damage calculation of `Skull Shaker`. But the max stack of `Skull Shaker` is now maxed at Regitlet's Level.*
+
+Max Level: 5  
+Rarity: 
+
+## Stonebreaker's Privilege
+(Lv: 290)
+> Becomes invincible for 0.1×level(?) second after [Petrified] is removed.
+
+Max Level: 10  
+Rarity: 
+
+## Fast Eater
+(Lv: 290)
+> Reduces item cooldown by 1×level(?) second after [Item Disabled] is removed.
+> 
+> *[Item Disabled] is ailment that enemy inflicted to player, like boss Rondine's shark*
+
+Max Level: 5  
+Rarity: 
+
+## Anti-Slip
+(Lv: 290)
+> Shortens [Knock Back] distance by 1×level(?) meter.
+
+Max Level: 3  
 Rarity:
