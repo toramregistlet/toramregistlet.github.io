@@ -1,0 +1,204 @@
+/* web page styles */
+:root {
+  --text: #e0e0e0;
+  --page-bg: #121212;
+  --panel-bg: #0d1117;
+  --gray: #333;
+  --quote-border: #3d444d;
+  --divider: #2f353d;
+  --code-bg: #1e242a;
+  --header-height: 6.5rem; /* js/main.js replaces this with the real height of <header> */
+}
+
+html {
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  margin: 0;
+  background-color: var(--page-bg);
+  letter-spacing: 1.2px;
+}
+
+/* not shown on screen, but still read by screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  background: var(--page-bg);
+  box-shadow: 0 1px 8px -2px var(--text);
+
+  details summary:hover {
+    text-decoration: underline;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.filter-level,
+.filter-keyword {
+  flex: 1 1 calc(385px - 2rem); /* when the screen is too narrow for both, the keyword filter wraps to its own row */
+}
+
+.filter-keyword {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: min-content 1fr;
+  gap: 1px;
+}
+
+.search {
+  font-size: 1.1rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  background: var(--panel-bg);
+  border: 1px solid var(--gray);
+
+  &:focus {
+    outline: 1px solid var(--text);
+  }
+}
+
+input.search,
+select.search {
+  width: 100%;
+}
+
+button.search {
+  aspect-ratio: 1 / 1;
+  padding: initial;
+  border-left: none;
+
+  &:hover {
+    background: var(--gray);
+    outline: 1px solid var(--text);
+  }
+}
+
+.icon {
+  fill: var(--text);
+  height: 75%;
+  vertical-align: middle;
+}
+
+/* the two boxes under the header: .note (info) and .results (registlet list) */
+.note,
+.results {
+  background: var(--panel-bg);
+  margin: 1rem;
+  padding: 0 0.8rem;
+  border: 1px solid var(--gray);
+
+  blockquote {
+    margin: 0;
+    padding-left: 1rem;
+    border-left: 4px solid var(--quote-border);
+
+    &.warning {
+      border-left: 4px solid yellow;
+    }
+  }
+}
+
+.note {
+  ul {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    li {
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.results,
+.heading-anchor {
+  scroll-margin-top: calc(var(--header-height) + 0.25rem);
+}
+
+.results {
+  /* custom elements are inline by default */
+  registlet-card {
+    display: block;
+  }
+
+  .not-found {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  h2 {
+    margin: 0;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .heading-anchor {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  code {
+    padding: 0.1rem 0.2rem;
+    background-color: var(--code-bg);
+  }
+}
+
+.scroll-top-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  position: fixed;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--gray);
+  text-decoration: none;
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
+}
