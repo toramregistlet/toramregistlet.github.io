@@ -27,18 +27,18 @@ header {
     padding: 1rem;
     background: #121212;
     box-shadow: 0 1px 8px -2px #e0e0e0;
-}
 
-header details summary:hover {
-    text-decoration: underline;
-}
+    details summary:hover {
+        text-decoration: underline;
+    }
 
-header form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 0.5rem;
+    form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
 }
 
 .filter-level,
@@ -61,6 +61,10 @@ button.search {
     padding: 0 1rem;
     background: #0D1117;
     border: 1px solid #333;
+
+    &:focus {
+        outline: 1px solid #e0e0e0;
+    }
 }
 
 input.search,
@@ -72,23 +76,17 @@ button.search {
     aspect-ratio: 1 / 1;
     padding: initial;
     border-left: none;
+
+    &:hover {
+        background: #333;
+        outline: 1px solid #e0e0e0;
+    }
 }
 
 .icon {
     fill: #e0e0e0;
     height: 75%;
     vertical-align: middle;
-}
-
-button.search:hover {
-    background: #333;
-    outline: 1px solid #e0e0e0;
-}
-
-select.search:focus,
-input.search:focus,
-button.search:focus {
-    outline: 1px solid #e0e0e0;
 }
 /* header end */
 
@@ -100,18 +98,20 @@ button.search:focus {
     border: 1px solid #333;
 }
 
-.note ul {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
+.note {
+    ul {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
 
-.note ul li {
-    margin-bottom: 0.25rem;
-}
+        li {
+            margin-bottom: 0.25rem;
+        }
+    }
 
-.note p {
-    margin-top: 0.5rem;
-    margin-bottom: 0;
+    p {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
 }
 
 .scroll-top-btn {
@@ -135,21 +135,63 @@ button.search:focus {
 
 /* markdown styles */
 
-.regis-container h1 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+.regis-container {
+    h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 
-.regis-container h2 {
-    margin: 0;
-    margin-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #2F353D;
-}
+    /* custom elements are inline by default */
+    registlet-card {
+        display: block;
+    }
 
-.regis-container a {
-    color: #e0e0e0 !important;
+    h2 {
+        margin: 0;
+        margin-top: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #2F353D;
+    }
+
+    a {
+        color: #e0e0e0 !important;
+    }
+
+    .heading-anchor {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    code {
+        padding: 0.1rem 0.2rem;
+        background-color: #1E242A;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    tr:nth-child(even) {
+        background-color: #151B23;
+    }
+
+    th {
+        background-color: #3D444D;
+    }
+
+    th,
+    td {
+        padding: 0.2rem 0.4rem;
+        border: 1px solid #2F353D;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
 }
 
 .regis-container a,
@@ -157,50 +199,17 @@ a#search-result {
     scroll-margin-top: 6.75rem;
 }
 
-.regis-container .heading-anchor {
-    text-decoration: none;
-}
+.note,
+.regis-container {
+    blockquote {
+        margin: 0;
+        padding-left: 1rem;
+        border-left: 4px solid #3D444D;
 
-.regis-container .heading-anchor:hover {
-    text-decoration: underline;
-}
-
-.note blockquote,
-.regis-container blockquote {
-    margin: 0;
-    padding-left: 1rem;
-    border-left: 4px solid #3D444D;
-}
-
-.note blockquote.warning,
-.regis-container blockquote.warning {
-    border-left: 4px solid yellow;
-}
-
-.regis-container code {
-    padding: 0.1rem 0.2rem;
-    background-color: #1E242A;
-}
-
-.regis-container table {
-  border-collapse: collapse;
-}
-
-.regis-container tr:nth-child(even){
-    background-color: #151B23;
-}
-
-.regis-container th {
-    background-color: #3D444D;
-}
-
-.regis-container th, .regis-container td {
-    padding: 0.2rem 0.4rem;
-    border: 1px solid #2F353D;
-}
-
-.regis-container li {
-    margin-bottom: 0.5rem;
+        &.warning {
+            border-left: 4px solid yellow;
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {

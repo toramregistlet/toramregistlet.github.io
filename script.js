@@ -35,6 +35,33 @@ function addLevelToSelectBox(data, element) {
   }
 }
 
+class RegistletCard extends HTMLElement {
+  set registlet(registlet) {
+    const nameH2 = document.createElement("h2");
+    const nameA = document.createElement("a");
+    const detail = convertDetail(registlet.detail, registlet.note);
+    const stdLv = document.createElement("p");
+    const maxLvRarity = document.createElement("p");
+    const slug = generateSlug(registlet.name);
+
+    nameA.classList = "heading-anchor";
+    nameA.href = `#${slug}`;
+    nameA.id = slug;
+    nameA.textContent = registlet.name;
+    nameH2.append(nameA);
+
+    stdLv.textContent = `(Lv: ${registlet.lv.join(", ")})`;
+    maxLvRarity.innerHTML = `Max Level: ${registlet.max_lv}`;
+    if (registlet.rarity) {
+      maxLvRarity.innerHTML += `<br>Rarity: ${registlet.rarity}`;
+    }
+
+    this.replaceChildren(nameH2, stdLv, detail, maxLvRarity);
+  }
+}
+
+customElements.define("registlet-card", RegistletCard);
+
 function convertToHTML(data) {
   resetDisplay();
 
@@ -48,50 +75,47 @@ function convertToHTML(data) {
   }
 
   for (const registlet of data) {
-    const nameH2 = document.createElement("h2");
-    const nameA = document.createElement("a");
-    const detail = convertDetail(registlet.detail);
-    const stdLv = document.createElement("p");
-    const maxLvRarity = document.createElement("p");
-    const slug = generateSlug(registlet.name);
+    const card = document.createElement("registlet-card");
+    card.registlet = registlet;
 
-    nameA.classList = "heading-anchor";
-    nameA.href = `#${slug}`;
-    nameA.id = slug;
-    nameA.textContent = registlet.name;
-    nameH2.append(nameA);
-
-    stdLv.textContent = `(Lv: ${registlet.lv.join(", ")})`;
-    maxLvRarity.innerHTML = `Max Level: ${registlet.max_lv}<br>Rarity: ${registlet.rarity}`;
-
-    display(nameH2, stdLv, detail, maxLvRarity);
+    display(card);
   }
 
   addRegisCounter(data.length);
 }
 
-function convertDetail(string) {
-  const arrPara = string.split("\r\n> \r\n");
+function convertDetail(string, note) {
+  const arrPara = string.split("\n\n");
   const detail = document.createElement("blockquote");
-  const regexBlockquote = />\s/g;  // originally `>` was used for `<blockquote>` in markdown format
-  const regexNewLine = /\r\n/g;
 
   for (const detailPara of arrPara) {
     const para = document.createElement("p");
 
-    const cleaned = detailPara
-      .replace(regexNewLine, "<br/>")
-      .replace(regexBlockquote, "");
-    const codeTagged = cleaned
-      .replace(/`([^`]+)`/g, '<code>$1</code>');
-    const italic = codeTagged
-      .replace(/\*([^\*]+)\*/g, '<i>$1</i>');
+    para.innerHTML = convertMarkdown(detailPara);
+    detail.appendChild(para);
+  }
 
-    para.innerHTML = italic;  // var italic is the result of all the format (clean, code tag & italic)
+  if (note) {
+    const para = document.createElement("p");
+
+    para.innerHTML = `<i>Note: ${convertMarkdown(note)}</i>`;
     detail.appendChild(para);
   }
 
   return detail;
+}
+
+function convertMarkdown(string) {
+  const regexNewLine = /\n/g;
+
+  const cleaned = string
+    .replace(regexNewLine, "<br/>");
+  const codeTagged = cleaned
+    .replace(/`([^`]+)`/g, '<code>$1</code>');
+  const italic = codeTagged
+    .replace(/\*([^\*]+)\*/g, '<i>$1</i>');
+
+  return italic;
 }
 
 function generateSlug(text) {
